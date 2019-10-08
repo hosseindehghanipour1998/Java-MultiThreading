@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class PlusPlus extends Thread {
-    private static int ARRAY_SIZE = 32000000;
+    private static int ARRAY_SIZE = 90000000;
     public static int intArray[] = new int[ARRAY_SIZE];
 
 
@@ -26,6 +26,10 @@ public class PlusPlus extends Thread {
             threadPool.add(new PlusPlus(idCounter++));
         }
 
+    }
+
+    public static void clearThreadPool(){
+        PlusPlus.threadPool.clear();
     }
     @Override
     public void run() {

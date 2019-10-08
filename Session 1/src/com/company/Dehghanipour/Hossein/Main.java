@@ -28,132 +28,21 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        ArrayList<Long> eachBatchTimes = new ArrayList<>() ;
         ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
+        int[] threadAmounts = {1,2,3,4,5,6,7,8,10,32,64} ;
         int loopCounter = 10 ;
-        int NUMBER_OF_THREADS = 0 ;
         long calculatedTime = 0 ;
 
 
-        //For <1> Thread
-        NUMBER_OF_THREADS = 1 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
+        for ( int i = 0 ; i < threadAmounts.length ; i++ ){
+            ArrayList<Long> eachBatchTimes = new ArrayList<>() ;
+            for ( int  j = 0 ; j < loopCounter ; j++){
+                calculatedTime = runThreads(threadAmounts[i]);
+                eachBatchTimes.add(calculatedTime) ;
+            }
+            eachTaskTimes.add(eachBatchTimes) ;
+
         }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-        //For <2> Threads
-        NUMBER_OF_THREADS = 2 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <3> Threads
-        NUMBER_OF_THREADS = 3 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <4> Threads
-        NUMBER_OF_THREADS = 4 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <5> Threads
-        NUMBER_OF_THREADS = 5 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <6> Threads
-        NUMBER_OF_THREADS = 6 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <7> Threads
-        NUMBER_OF_THREADS = 7 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <8> Threads
-        NUMBER_OF_THREADS = 8 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <10> Threads
-        NUMBER_OF_THREADS = 10 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <32> Threads
-        NUMBER_OF_THREADS = 32 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
-
-        //For <64> Thread
-        NUMBER_OF_THREADS = 64 ;
-        for ( int i = 0 ; i < loopCounter ; i++){
-            calculatedTime = runThreads(NUMBER_OF_THREADS);
-            eachBatchTimes.add(calculatedTime);
-        }
-
-        eachTaskTimes.add(eachBatchTimes);
-        eachBatchTimes.clear();
-
 
         //Print The Table :
         int index = 0 ;

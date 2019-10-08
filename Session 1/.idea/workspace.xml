@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc81152-2af2-438e-8345-45ceed32c3b1" name="Default Changelist" comment="" />
+    <list default="true" id="adc81152-2af2-438e-8345-45ceed32c3b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/PlusPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/PlusPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/PlusPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/PlusPlus.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RvTGLnBQJ8lmDhrjmffQDRvxoA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -57,5 +67,18 @@
       <updated>1570546472291</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -5,11 +5,12 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class PlusPlus extends Thread {
+    //Create int array with wanted size
     private static int MILLION = 1000000 ;
     private static int ARRAY_SIZE = 320 * MILLION;
     public static int intArray[] = new int[ARRAY_SIZE];
 
-
+    //Create a Thread Pool
     public static int idCounter = 1 ;
     public static ArrayList<PlusPlus> threadPool = new ArrayList<>() ;
     private int id = 0 ;
@@ -27,11 +28,13 @@ public class PlusPlus extends Thread {
         }
 
     }
-
+    //Terminate Thread Pool
     public static void clearThreadPool(){
         PlusPlus.threadPool.clear();
     }
     @Override
+
+    //Main Core :
     public void run() {
         //super.run();
         //Random rnd = new Random();

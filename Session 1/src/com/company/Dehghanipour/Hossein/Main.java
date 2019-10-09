@@ -6,6 +6,7 @@ public class Main {
 
     public static long runThreads(int numberOfThreads){
         long startTime = System.nanoTime();
+        //Create a ThreadPool due to the number of wanted threads
         PlusPlus.createThreadPool(numberOfThreads);
 
         for ( PlusPlus p : PlusPlus.threadPool){
@@ -21,12 +22,13 @@ public class Main {
 
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
-        //System.out.println(totalTime/1000000);
+        //Terminate Thread Pool.
         PlusPlus.clearThreadPool();
         return (totalTime/1000000) ;
     }
 
     public static void main(String[] args) {
+        //Initializations
         ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
         int[] threadNumbers = {1,2,3,4,5,6,7,8,10,32,64} ;
         int loopCounter = 10 ;
@@ -54,6 +56,7 @@ public class Main {
             System.out.println("\n");
         }
         System.out.println("Min :\t" + Collections.min(allMinimums));
+        //Write the table in a file
         IODevice ioDevice = new IODevice();
         ioDevice.writeFile("calculatedTimes.txt" , eachTaskTimes , threadNumbers);
     }

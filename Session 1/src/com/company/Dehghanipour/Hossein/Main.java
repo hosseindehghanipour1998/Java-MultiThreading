@@ -1,6 +1,4 @@
 package com.company.Dehghanipour.Hossein;
-
-
 import java.util.ArrayList;
 
 public class Main {
@@ -33,7 +31,6 @@ public class Main {
         int loopCounter = 10 ;
         long calculatedTime = 0 ;
 
-
         for ( int i = 0 ; i < threadAmounts.length ; i++ ){
             ArrayList<Long> eachBatchTimes = new ArrayList<>() ;
             for ( int  j = 0 ; j < loopCounter ; j++){
@@ -41,23 +38,17 @@ public class Main {
                 eachBatchTimes.add(calculatedTime) ;
             }
             eachTaskTimes.add(eachBatchTimes) ;
-
         }
 
         //Print The Table :
         int index = 0 ;
         for ( ArrayList<Long> AL : eachTaskTimes ){
-            System.out.print("Thread (" + (index++) + "):   ");
+            System.out.print("Threads (" + (threadAmounts[index++]) + "):\t\t");
             for (Long time : AL){
-                System.out.print(time + "   ");
+                System.out.print(time + "\t\t\t");
             }
             System.out.println("\n");
         }
-
-
-
-
-
     }
 }
 

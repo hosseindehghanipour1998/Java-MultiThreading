@@ -35,18 +35,10 @@ public class PlusPlus extends Thread {
     public void run() {
         //super.run();
         Random rnd = new Random();
-
         for(whichIndex = id ; whichIndex < ARRAY_SIZE ; whichIndex += 32){
-            //intArray[whichIndex] = (int)(ThreadLocalRandom.current().nextInt()) ;
-            int a = rnd.nextInt(10000);
-            intArray[whichIndex] = a ;
+            intArray[whichIndex] = (int)(ThreadLocalRandom.current().nextInt()) ;
+            //int a = rnd.nextInt(10000);
+            //intArray[whichIndex] = a ;
         }
     }
-
-
-    public void TempleMain(){
-
-    }
 }
-
-

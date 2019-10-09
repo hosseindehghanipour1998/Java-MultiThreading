@@ -60,13 +60,15 @@ public class IODevice {
 			for ( ArrayList<Long> AL : calculatedTimes){
             	bufferedWriter.write("Threads(" + (threadNumbers[index++]) + ")\t");
             	for ( Long time : AL){
-            		bufferedWriter.write( time + "\t\t");
+            		bufferedWriter.write( time + " ms\t\t");
 				}
             	bufferedWriter.write("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL));
 				allMinimums.add(Collections.min(AL)) ;
 				bufferedWriter.write("\n");
 			}
-			bufferedWriter.write("Min :\t" + Collections.min(allMinimums));
+			int minThreadIndex = Main.findMinThread(allMinimums) ;
+			String conclusion = "Min :\t" + Collections.min(allMinimums) + " ms | Number of Threads : (" + threadNumbers[minThreadIndex] + " )" ;
+			bufferedWriter.write(conclusion);
 
 
 

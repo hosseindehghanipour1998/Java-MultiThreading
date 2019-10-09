@@ -5,6 +5,7 @@ import java.util.Collections;
 public class Main {
 
     public static long runThreads(int numberOfThreads){
+        final int MILLION = 1000000;
         long startTime = System.nanoTime();
         //Create a ThreadPool due to the number of wanted threads
         PlusPlus.createThreadPool(numberOfThreads);
@@ -24,7 +25,7 @@ public class Main {
         long totalTime = endTime - startTime;
         //Terminate Thread Pool.
         PlusPlus.clearThreadPool();
-        return (totalTime/1000000) ;
+        return (totalTime/MILLION) ;
     }
 
     public static void main(String[] args) {
@@ -49,16 +50,23 @@ public class Main {
         for ( ArrayList<Long> AL : eachTaskTimes ){
             System.out.print("Threads (" + (threadNumbers[index++]) + "):\t\t");
             for (Long time : AL){
-                System.out.print(time + "\t\t");
+                System.out.print(time + " ms\t\t");
             }
-            System.out.print("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL));
+            System.out.print("Max: " + Collections.max(AL) + " ms\t Min : " + Collections.min(AL));
             allMinimums.add(Collections.min(AL)) ;
             System.out.println("\n");
         }
-        System.out.println("Min :\t" + Collections.min(allMinimums));
+        System.out.println("Min :\t" + Collections.min(allMinimums) + " ms | Number Of Threads :  ( " + threadNumbers[findMinThread(allMinimums)] +" )"  );
+
         //Write the table in a file
         IODevice ioDevice = new IODevice();
         ioDevice.writeFile("calculatedTimes.txt" , eachTaskTimes , threadNumbers);
+    }
+
+
+    public static int findMinThread(ArrayList<Long> allMinimums){
+        Long min = Collections.min(allMinimums) ;
+        return allMinimums.indexOf(min);
     }
 }
 

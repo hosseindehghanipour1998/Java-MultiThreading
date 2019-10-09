@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class IODevice {
 	
@@ -41,29 +42,32 @@ public class IODevice {
 	
 	
 	
-	public void writeFile ( String fileName , ArrayList<Integer> output) {
+	public void writeFile ( String fileName , ArrayList<ArrayList<Long>> calculatedTimes , int[] threadNumbers ) {
 		// The name of the file to open.
-		
-		int temp[] = new int[output.size()];
-		for ( int  i = 0 ; i < output.size() ; i++) {
-			temp[i] = output.get(i) ;
-		}
-		
-		Arrays.sort(temp);
 
         try {
             // Assume default encoding.
-            FileWriter fileWriter =
-                new FileWriter(fileName);
+            FileWriter fileWriter = new FileWriter(fileName);
 
             // Always wrap FileWriter in BufferedWriter.
-            BufferedWriter bufferedWriter =
-                new BufferedWriter(fileWriter);
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-            for ( int i = 0 ; i < output.size() ; i++) {
-            	bufferedWriter.write(""+temp[i] + " ");
-            	
-            }
+
+            // Core Info.
+			ArrayList<Long> allMinimums = new ArrayList<>() ;
+			int index = 0 ;
+
+			for ( ArrayList<Long> AL : calculatedTimes){
+            	bufferedWriter.write("Threads(" + (threadNumbers[index++]) + ")\t");
+            	for ( Long time : AL){
+            		bufferedWriter.write( time + "\t\t");
+				}
+            	bufferedWriter.write("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL));
+				allMinimums.add(Collections.min(AL)) ;
+				bufferedWriter.write("\n");
+			}
+			bufferedWriter.write("Min :\t" + Collections.min(allMinimums));
+
 
 
             // Always close files.

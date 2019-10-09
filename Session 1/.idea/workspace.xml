@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc81152-2af2-438e-8345-45ceed32c3b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/calculatedTimes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/IODevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/IODevice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/PlusPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 1/com/company/Dehghanipour/Hossein/PlusPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/IODevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/IODevice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/PlusPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/PlusPlus.java" afterDir="false" />
     </list>
@@ -29,6 +32,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein" />
   </component>
   <component name="RecentsManager">
@@ -90,5 +94,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

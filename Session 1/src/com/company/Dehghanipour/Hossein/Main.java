@@ -1,5 +1,6 @@
 package com.company.Dehghanipour.Hossein;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
@@ -27,14 +28,14 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
-        int[] threadAmounts = {1,2,3,4,5,6,7,8,10,32,64} ;
+        int[] threadNumbers = {1,2,3,4,5,6,7,8,10,32,64} ;
         int loopCounter = 10 ;
         long calculatedTime = 0 ;
 
-        for ( int i = 0 ; i < threadAmounts.length ; i++ ){
+        for ( int i = 0 ; i < threadNumbers.length ; i++ ){
             ArrayList<Long> eachBatchTimes = new ArrayList<>() ;
             for ( int  j = 0 ; j < loopCounter ; j++){
-                calculatedTime = runThreads(threadAmounts[i]);
+                calculatedTime = runThreads(threadNumbers[i]);
                 eachBatchTimes.add(calculatedTime) ;
             }
             eachTaskTimes.add(eachBatchTimes) ;
@@ -42,13 +43,19 @@ public class Main {
 
         //Print The Table :
         int index = 0 ;
+        ArrayList<Long> allMinimums = new ArrayList<>() ;
         for ( ArrayList<Long> AL : eachTaskTimes ){
-            System.out.print("Threads (" + (threadAmounts[index++]) + "):\t\t");
+            System.out.print("Threads (" + (threadNumbers[index++]) + "):\t\t");
             for (Long time : AL){
-                System.out.print(time + "\t\t\t");
+                System.out.print(time + "\t\t");
             }
+            System.out.print("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL));
+            allMinimums.add(Collections.min(AL)) ;
             System.out.println("\n");
         }
+        System.out.println("Min :\t" + Collections.min(allMinimums));
+        IODevice ioDevice = new IODevice();
+        ioDevice.writeFile("calculatedTimes.txt" , eachTaskTimes , threadNumbers);
     }
 }
 

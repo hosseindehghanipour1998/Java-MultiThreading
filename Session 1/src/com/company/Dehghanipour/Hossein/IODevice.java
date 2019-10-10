@@ -55,6 +55,7 @@ public class IODevice {
 
             // Core Info.
 			ArrayList<Long> allMinimums = new ArrayList<>() ;
+			ArrayList<Float> allAverageTimes = new ArrayList<>() ;
 			int index = 0 ;
 
 			for ( ArrayList<Long> AL : calculatedTimes){
@@ -62,13 +63,17 @@ public class IODevice {
             	for ( Long time : AL){
             		bufferedWriter.write( time + " ms\t\t");
 				}
-            	bufferedWriter.write("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL));
+				float avgTime = Main.calculateAverage(AL) ;
+				allAverageTimes.add(avgTime) ;
+            	bufferedWriter.write("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL)+ " ms\t Avg : " + avgTime);
 				allMinimums.add(Collections.min(AL)) ;
 				bufferedWriter.write("\n");
 			}
 			int minThreadIndex = Main.findMinThread(allMinimums) ;
-			String conclusion = "Min :\t" + Collections.min(allMinimums) + " ms | Number of Threads : (" + threadNumbers[minThreadIndex] + " )" ;
-			bufferedWriter.write(conclusion);
+			String min_maxConclusion = "Min :\t" + Collections.min(allMinimums) + " ms | Number of Threads : (" + threadNumbers[minThreadIndex] + " )\n" ;
+			String avgConclusion = "Min Average:\t" + Collections.min(allAverageTimes)  + " ms | Number Of Threads :  ( " + threadNumbers[Main.findMinAvgTime(allAverageTimes)] +" )\n"   ;
+			bufferedWriter.write(min_maxConclusion);
+			bufferedWriter.write(avgConclusion);
 
 
 

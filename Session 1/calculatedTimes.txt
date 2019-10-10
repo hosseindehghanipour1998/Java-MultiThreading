@@ -1,12 +1,13 @@
-Threads(1)	650 ms		96 ms		102 ms		104 ms		97 ms		97 ms		96 ms		96 ms		96 ms		88 ms		Max: 650	 Min : 88
-Threads(2)	129 ms		98 ms		92 ms		123 ms		89 ms		127 ms		130 ms		93 ms		141 ms		132 ms		Max: 141	 Min : 89
-Threads(3)	89 ms		149 ms		89 ms		86 ms		144 ms		173 ms		104 ms		103 ms		97 ms		126 ms		Max: 173	 Min : 86
-Threads(4)	95 ms		124 ms		96 ms		127 ms		96 ms		94 ms		90 ms		120 ms		87 ms		90 ms		Max: 127	 Min : 87
-Threads(5)	98 ms		125 ms		105 ms		137 ms		112 ms		94 ms		95 ms		111 ms		91 ms		94 ms		Max: 137	 Min : 91
-Threads(6)	108 ms		94 ms		95 ms		111 ms		97 ms		97 ms		109 ms		102 ms		108 ms		129 ms		Max: 129	 Min : 94
-Threads(7)	95 ms		182 ms		215 ms		157 ms		135 ms		181 ms		107 ms		162 ms		134 ms		113 ms		Max: 215	 Min : 95
-Threads(8)	183 ms		132 ms		185 ms		205 ms		288 ms		345 ms		262 ms		264 ms		226 ms		247 ms		Max: 345	 Min : 132
-Threads(10)	488 ms		408 ms		399 ms		385 ms		364 ms		426 ms		378 ms		339 ms		415 ms		391 ms		Max: 488	 Min : 339
-Threads(32)	1512 ms		1535 ms		1515 ms		1414 ms		1488 ms		1536 ms		1564 ms		1540 ms		1482 ms		1550 ms		Max: 1564	 Min : 1414
-Threads(64)	3072 ms		2988 ms		3044 ms		3068 ms		3149 ms		3165 ms		3228 ms		3111 ms		3328 ms		3080 ms		Max: 3328	 Min : 2988
-Min :	86 ms | Number of Threads : (3 )
+Threads(1)	653 ms		94 ms		100 ms		101 ms		97 ms		97 ms		100 ms		93 ms		95 ms		102 ms		Max: 653	 Min : 93 ms	 Avg : 153.0
+Threads(2)	149 ms		111 ms		131 ms		139 ms		98 ms		118 ms		135 ms		131 ms		141 ms		134 ms		Max: 149	 Min : 98 ms	 Avg : 128.0
+Threads(3)	110 ms		145 ms		90 ms		98 ms		137 ms		100 ms		106 ms		198 ms		105 ms		132 ms		Max: 198	 Min : 90 ms	 Avg : 122.0
+Threads(4)	88 ms		88 ms		92 ms		139 ms		92 ms		91 ms		93 ms		128 ms		90 ms		164 ms		Max: 164	 Min : 88 ms	 Avg : 106.0
+Threads(5)	98 ms		156 ms		120 ms		99 ms		102 ms		94 ms		100 ms		103 ms		96 ms		99 ms		Max: 156	 Min : 94 ms	 Avg : 106.0
+Threads(6)	107 ms		125 ms		99 ms		103 ms		97 ms		101 ms		104 ms		99 ms		129 ms		97 ms		Max: 129	 Min : 97 ms	 Avg : 106.0
+Threads(7)	94 ms		106 ms		99 ms		204 ms		94 ms		106 ms		95 ms		92 ms		138 ms		94 ms		Max: 204	 Min : 92 ms	 Avg : 112.0
+Threads(8)	153 ms		211 ms		185 ms		251 ms		226 ms		192 ms		160 ms		152 ms		326 ms		174 ms		Max: 326	 Min : 152 ms	 Avg : 203.0
+Threads(10)	389 ms		423 ms		395 ms		289 ms		359 ms		325 ms		341 ms		327 ms		366 ms		273 ms		Max: 423	 Min : 273 ms	 Avg : 348.0
+Threads(32)	1549 ms		1456 ms		1562 ms		1570 ms		1425 ms		1465 ms		1458 ms		1469 ms		1455 ms		1446 ms		Max: 1570	 Min : 1425 ms	 Avg : 1485.0
+Threads(64)	3146 ms		3252 ms		3242 ms		3299 ms		3132 ms		3152 ms		3109 ms		3191 ms		3153 ms		3174 ms		Max: 3299	 Min : 3109 ms	 Avg : 3185.0
+Min :	88 ms | Number of Threads : (4 )
+Min Average:	106.0 ms | Number Of Threads :  ( 4 )

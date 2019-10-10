@@ -1,9 +1,16 @@
 package com.company.Dehghanipour.Hossein;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {
-
+    public static float calculateAverage(ArrayList<Long> caulculatedTimes ){
+        int sum = 0 ;
+        for ( Long time : caulculatedTimes) {
+            sum += time ;
+        }
+        return (sum/caulculatedTimes.size());
+    }
     public static long runThreads(int numberOfThreads){
         final int MILLION = 1000000;
         long startTime = System.nanoTime();
@@ -46,17 +53,21 @@ public class Main {
 
         //Print The Table :
         int index = 0 ;
-        ArrayList<Long> allMinimums = new ArrayList<>() ;
+        ArrayList<Long> allMinimumCalculatedTimes = new ArrayList<>() ;
+        ArrayList<Float> allAverageTimes = new ArrayList<>() ;
         for ( ArrayList<Long> AL : eachTaskTimes ){
             System.out.print("Threads (" + (threadNumbers[index++]) + "):\t\t");
             for (Long time : AL){
                 System.out.print(time + " ms\t\t");
             }
-            System.out.print("Max: " + Collections.max(AL) + " ms\t Min : " + Collections.min(AL));
-            allMinimums.add(Collections.min(AL)) ;
+            float avgTime = calculateAverage(AL) ;
+            allAverageTimes.add(avgTime) ;
+            System.out.print("Max: " + Collections.max(AL) + " ms\t Min : " + Collections.min(AL) + " ms\t Avg : " + avgTime);
+            allMinimumCalculatedTimes.add(Collections.min(AL)) ;
             System.out.println("\n");
         }
-        System.out.println("Min :\t" + Collections.min(allMinimums) + " ms | Number Of Threads :  ( " + threadNumbers[findMinThread(allMinimums)] +" )"  );
+        System.out.println("Min :\t" + Collections.min(allMinimumCalculatedTimes) + " ms | Number Of Threads :  ( " + threadNumbers[findMinThread(allMinimumCalculatedTimes)] +" )"  );
+        System.out.println("Min Average:\t" + Collections.min(allAverageTimes)  + " ms | Number Of Threads :  ( " + threadNumbers[findMinAvgTime(allAverageTimes)] +" )"  );
 
         //Write the table in a file
         IODevice ioDevice = new IODevice();
@@ -68,5 +79,10 @@ public class Main {
         Long min = Collections.min(allMinimums) ;
         return allMinimums.indexOf(min);
     }
+    public static int findMinAvgTime(ArrayList<Float> allMinimums){
+        Float min = Collections.min(allMinimums) ;
+        return allMinimums.indexOf(min);
+    }
+
 }
 

@@ -7,7 +7,6 @@ public class Main {
     private static final String DEBUG_FILE = "bugDetectionFile.txt";
     private static  int failsCounter = 0 ;
     private static  int matchesCounter = 0 ;
-
     //**
 
     public static float calculateAverage(ArrayList<Long> caulculatedTimes ){
@@ -18,7 +17,7 @@ public class Main {
         return (sum/caulculatedTimes.size());
     }
 
-    public static long runThreads(int numberOfThreads , ArrayList<Long> summations , long realSummation){
+    public static long runThreads(int numberOfThreads, long realSummation , ArrayList<Long> summations){
         final int MILLION = 1000000;
         final int THOUSAND = 1000 ;
         long startTime = System.nanoTime();
@@ -38,11 +37,9 @@ public class Main {
 
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
-
+        summations.add(ThreadClass.SUMMATION);
 
         //**Test
-        System.out.println("Initial Size : " + ThreadClass.threadPool.size());
-        summations.add(ThreadClass.SUMMATION);
         if( realSummation == ThreadClass.SUMMATION){
             IODevice.writePerLine("STATUS : MATCH ",DEBUG_FILE);
             matchesCounter++ ;
@@ -53,7 +50,6 @@ public class Main {
             IODevice.writePerLine("REAL AMOUNT  : " + realSummation,DEBUG_FILE);
             IODevice.writePerLine("SUMMATION AMOUNT : " + ThreadClass.SUMMATION ,DEBUG_FILE);
         }
-        System.out.println("Summation Amount : "  + ThreadClass.SUMMATION);
         IODevice.writePerLine("Initial Size : " + ThreadClass.threadPool.size(),DEBUG_FILE);
         IODevice.writePerLine("Summation Amount : "  + ThreadClass.SUMMATION,DEBUG_FILE);
         //**
@@ -73,7 +69,7 @@ public class Main {
         return allMinimums.indexOf(min);
     }
 
-    public static void printTheTable(ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes  , int[] threadNumbers , int[] arraySizes , ArrayList<Integer> summations ){
+    public static void printTheTable(ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes  , int[] threadNumbers , int[] arraySizes , ArrayList<Long> summations ){
         int arrayIndex = 0 ;
         int threadIndex = 0 ;
 
@@ -87,14 +83,15 @@ public class Main {
             for ( ArrayList<Long> AL : allThreadTime ){
                 System.out.print("Threads (" + (threadNumbers[threadIndex++]) + "):\t\t") ;
                 for ( Long time : AL ){
-                    System.out.print(time + " ms\t\t");
+                    System.out.print(time + " us\t\t");
                 }
                 float avgTime = calculateAverage(AL);
                 allAverageTimes.add(avgTime) ;
-                System.out.print("Max: " + Collections.max(AL) + " ms\t Min : " + Collections.min(AL) + " ms\t Avg : " + avgTime);
+                System.out.print("Max: " + Collections.max(AL) + " us\t Min : " + Collections.min(AL) + " us\t Avg : " + avgTime);
                 allMinimumCalculatedTimes.add(Collections.min(AL)) ;
                 System.out.println("\n");
             }
+            //Edit here -> Make it to show for each <vector>
             //System.out.println("Min :\t" + Collections.min(allMinimumCalculatedTimes) + " ms | Number Of Threads :  ( " + threadNumbers[findMinThread(allMinimumCalculatedTimes)] +" )"  );
             //System.out.println("Min Average:\t" + Collections.min(allAverageTimes)  + " ms | Number Of Threads :  ( " + threadNumbers[findMinAvgTime(allAverageTimes)] +" )"  );
 
@@ -114,22 +111,14 @@ public class Main {
         IODevice.deletePredefinedFile(DEBUG_FILE);
         //Initializations
         ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes = new ArrayList<>() ;
-        ArrayList<Long> summations = new ArrayList<>() ;//**Test**
         int[] threadNumbers =  {1,2,5,10,20,50,100,150};
-        int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
-        //int[] vectorSizes = {5};//**Test**
-
+        int[] vectorSizes = {100 , 1000 , 10000 , 100000}; // What TA asked Us to do
+        ArrayList<Long> summations =  new ArrayList<>() ;
         final int LOOP_COUNTER = 10 ;
         long calculatedTime = 0 ;
 
         //CORE :
         for ( int matrixSize : vectorSizes){
-
-
-            //**Test**
-            IODevice.writePerLine(" ======= ARRAY_SIZE (" + matrixSize + " )========\n",DEBUG_FILE);
-            System.out.println("========== ARRAY_SIZE (" + matrixSize + " )==========\n");
-            //**
 
             ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
             //Initialize the Vector with wanted lenghts
@@ -140,7 +129,6 @@ public class Main {
 
             //**Test**
             Long realAmountOfMultiplying = calculateMul(ThreadClass.HORIZONTAL_VECTOR , ThreadClass.VERTICAL_VECTOR);
-            System.out.println("Real MUL : " + realAmountOfMultiplying);
             //**
 
 
@@ -148,7 +136,6 @@ public class Main {
             for ( int threadNumber : threadNumbers){
 
                 //**Test**
-                System.out.println("NUMBER_OF_THREADS (" + threadNumber + ")");
                 IODevice.writePerLine("NUMBER_OF_THREADS (" + threadNumber + ")",DEBUG_FILE);
                 //**
 
@@ -157,11 +144,10 @@ public class Main {
                 for ( int i = 0 ; i < LOOP_COUNTER ; i++){
 
                     //**Test**
-                    System.out.println("LOOP_COUNTER (" + i + ")");
                     IODevice.writePerLine("LOOP_COUNTER (" + i + ")",DEBUG_FILE);
                     //**
 
-                    calculatedTime = runThreads(threadNumber,summations,realAmountOfMultiplying) ;
+                    calculatedTime = runThreads(threadNumber,realAmountOfMultiplying,summations) ;
                     eachBatchTimes.add(calculatedTime) ;
                 }
                 eachTaskTimes.add(eachBatchTimes) ;
@@ -169,17 +155,17 @@ public class Main {
 
             //**Test**
             IODevice.writePerLine("=================================",DEBUG_FILE);
-            System.out.println("=================================");
             //**
 
             allThreadsTimes.add(eachTaskTimes);
         }
 
-        //printTheTable(allThreadsTimes,threadNumbers,vectorSizes,summations) ;
+        printTheTable(allThreadsTimes,threadNumbers,vectorSizes,summations) ;
         System.out.println("End Of Program ... ");
-        System.out.println("Failes : " + failsCounter);
-        System.out.println(" Matches : " + matchesCounter);
-        System.out.println("Total : " + (matchesCounter + failsCounter));
+
+        StringBuilder builder = new StringBuilder();
+        builder.append("Failes : " + failsCounter + "\n" +" Matches : " + matchesCounter + "\n" + "Total : " + (matchesCounter + failsCounter) );
+        IODevice.writePerLine(builder.toString(),DEBUG_FILE);
 
 
     }

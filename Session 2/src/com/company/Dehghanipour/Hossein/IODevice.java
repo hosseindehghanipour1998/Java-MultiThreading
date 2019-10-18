@@ -39,6 +39,7 @@ public class IODevice {
 		
 		return file ;
 	}
+
 	public static void deletePredefinedFile(String fileName){
 
 		try {
@@ -51,6 +52,7 @@ public class IODevice {
 		}
 
 	}
+
 	public static  void writePerLine(String text , String fileName ){
 
 		try {

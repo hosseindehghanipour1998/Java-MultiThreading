@@ -39,10 +39,29 @@ public class IODevice {
 		
 		return file ;
 	}
-	
-	public void writePerLine(String text , String fileName ){
+	public static void deletePredefinedFile(String fileName){
 
+		try {
+			FileWriter fileWriter = new FileWriter(fileName);
+			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+			bufferedWriter.close();
+		}
+		catch (Exception e){
+			e.printStackTrace();
+		}
 
+	}
+	public static  void writePerLine(String text , String fileName ){
+
+		try {
+			FileWriter fileWriter = new FileWriter(fileName , true);
+			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+			bufferedWriter.write("\n" + text + "\n");
+			bufferedWriter.close();
+		}
+		catch (Exception e){
+			e.printStackTrace();
+		}
 
 	}
 	

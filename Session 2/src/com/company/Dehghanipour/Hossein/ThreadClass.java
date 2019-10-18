@@ -14,7 +14,7 @@ public class ThreadClass extends Thread {
     public static int VERTICAL_VECTOR[] ;
 
     //Result :
-    public static int SUMMATION = 0;
+    public static long  SUMMATION = 0;
 
     //Create a Thread Pool
     public static int idCounter = 0;
@@ -74,11 +74,14 @@ public class ThreadClass extends Thread {
         }
     }
 
-    public static void printArray(int arr[]){
+    public static String printArray(int arr[]){
+        StringBuilder builder = new StringBuilder() ;
         for ( Integer i : arr){
             System.out.print(i + "|");
+            builder.append(i + "|");
         }
         System.out.println();
+        return builder.toString();
     }
 }
 

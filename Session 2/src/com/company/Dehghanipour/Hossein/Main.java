@@ -1,8 +1,6 @@
 package com.company.Dehghanipour.Hossein;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Collections;
 public class Main {
     public static float calculateAverage(ArrayList<Long> caulculatedTimes ){
@@ -19,6 +17,7 @@ public class Main {
         long startTime = System.nanoTime();
         //Create a ThreadPool due to the number of wanted threads
         ThreadClass.createThreadPool(numberOfThreads);
+
         for ( ThreadClass p : ThreadClass.threadPool){
             p.start();
         }
@@ -29,14 +28,14 @@ public class Main {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        System.out.println("Initial Size : " + ThreadClass.threadPool.size());
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
         summations.add(ThreadClass.SUMMATION);
-        System.out.println(ThreadClass.SUMMATION);
+        System.out.println("Summation Amount : "  + ThreadClass.SUMMATION);
         //Terminate Thread Pool.
-        ThreadClass.clearThreadPool();
-        ThreadClass.SUMMATION = 0 ;
+        ThreadClass.terminateThreadPool();
+
         return (totalTime/THOUSAND) ;
     }
 
@@ -93,38 +92,42 @@ public class Main {
         ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes = new ArrayList<>() ;
         ArrayList<Integer> summations = new ArrayList<>() ;
         int[] threadNumbers =  {1,2,5,10,20,50,100,150};
-        //int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000};
-        int[] vectorSizes = {5, 10 , 15 , 20};
-        int loopCounter = 1 ;
+        //int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
+        int[] vectorSizes = {5};
+
+        final int LOOP_COUNTER = 1 ;
         long calculatedTime = 0 ;
 
         //CORE :
-        for ( Integer matrixSize : vectorSizes){
+        for ( int matrixSize : vectorSizes){
+            System.out.println("================ ARRAY_SIZE (" + matrixSize + " ) =======================");
             ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
+            //Initialize the Vector with wanted lenghts
             ThreadClass.ARRAY_SIZE = matrixSize ;
             ThreadClass.initializeArrays(matrixSize);
-            System.out.println("MUL : " + calculateMul(ThreadClass.HORIZONTAL_VECTOR , ThreadClass.VERTICAL_VECTOR));
+            //Test
+            System.out.println("Real MUL : " + calculateMul(ThreadClass.HORIZONTAL_VECTOR , ThreadClass.VERTICAL_VECTOR));
             ThreadClass.printArray(ThreadClass.HORIZONTAL_VECTOR);
             ThreadClass.printArray(ThreadClass.VERTICAL_VECTOR);
-            for ( Integer threadNumber : threadNumbers){
+            //Core
+            for ( int threadNumber : threadNumbers){
+                System.out.println("+++++ NUMBER_OF_THREADS (" + threadNumber + " ) ++++++");
                 ArrayList<Long> eachBatchTimes = new ArrayList<>() ;
                 ThreadClass.THREAD_NUMBER = threadNumber ;
-                for ( int i = 0 ; i <loopCounter ; i++){
+                for ( int i = 0 ; i < LOOP_COUNTER ; i++){
+                    System.out.println("///// LOPP_COUNTER (" + i + " ) /////");
                     calculatedTime = runThreads(threadNumber,summations) ;
                     eachBatchTimes.add(calculatedTime) ;
                 }
                 eachTaskTimes.add(eachBatchTimes) ;
             }
+            System.out.println("=================================");
             allThreadsTimes.add(eachTaskTimes);
         }
-        printTheTable(allThreadsTimes,threadNumbers,vectorSizes,summations) ;
-        /*
-        //Print The Table :
-        printTheTable(eachTaskTimes,threadNumbers);
-        //Write the table in a file
-        IODevice ioDevice = new IODevice();
-        ioDevice.writeFile("calculatedTimes.txt" , eachTaskTimes , threadNumbers);
-        */
+
+        //printTheTable(allThreadsTimes,threadNumbers,vectorSizes,summations) ;
+        System.out.println("End Of Program ... ");
+
 
     }
 

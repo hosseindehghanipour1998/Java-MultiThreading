@@ -40,7 +40,11 @@ public class IODevice {
 		return file ;
 	}
 	
-	
+	public void writePerLine(String text , String fileName ){
+
+
+
+	}
 	
 	public void writeFile ( String fileName , ArrayList<ArrayList<Long>> calculatedTimes , int[] threadNumbers ) {
 		// The name of the file to open.

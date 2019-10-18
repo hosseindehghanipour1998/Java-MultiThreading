@@ -5,9 +5,8 @@ import java.util.Random;
 
 public class ThreadClass extends Thread {
     //Create int array with wanted size
-    public static int MILLION = 1000000;
+    public static final int MILLION = 1000000;
     public static int THREAD_NUMBER ;
-    public int sum = 0 ;
 
     //Vector Values
     public static int ARRAY_SIZE ;
@@ -47,16 +46,14 @@ public class ThreadClass extends Thread {
     }
 
     //Terminate Thread Pool
-    public static void clearThreadPool() {
+    public static void terminateThreadPool() {
         ThreadClass.threadPool.clear();
+        ThreadClass.idCounter =  0 ;
+        ThreadClass.SUMMATION = 0 ;
     }
 
     private void vectorMultiply(int index) {
-        int result = HORIZONTAL_VECTOR[index] * VERTICAL_VECTOR[index];
-        SUMMATION += result ;
-        sum += result ;
-        //System.out.println(result + " = " +HORIZONTAL_VECTOR[index] + " * " + VERTICAL_VECTOR[index]);
-        //System.out.println(SUMMATION);
+        SUMMATION += (HORIZONTAL_VECTOR[index] * VERTICAL_VECTOR[index] );
     }
 
 
@@ -72,8 +69,7 @@ public class ThreadClass extends Thread {
     @Override
     public void run() {
         //super.run();
-        int quota = ARRAY_SIZE / THREAD_NUMBER;
-        for (whichIndex = id; (whichIndex < ARRAY_SIZE); whichIndex += THREAD_NUMBER) {
+        for (whichIndex = id; ((whichIndex) < ARRAY_SIZE ); whichIndex += THREAD_NUMBER) {
             vectorMultiply(whichIndex);
         }
     }

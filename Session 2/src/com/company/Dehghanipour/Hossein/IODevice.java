@@ -67,45 +67,48 @@ public class IODevice {
 
 	}
 	
-	public void writeFile ( String fileName , ArrayList<ArrayList<Long>> calculatedTimes , int[] threadNumbers ) {
+	public void writeFile ( String fileName , ArrayList<ArrayList<ArrayList<Long>>>calculatedTimes , int[] threadNumbers , int[] vectorSizes) {
 		// The name of the file to open.
 
         try {
             // Assume default encoding.
             FileWriter fileWriter = new FileWriter(fileName);
-
             // Always wrap FileWriter in BufferedWriter.
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
-
-
             // Core Info.
-			ArrayList<Long> allMinimums = new ArrayList<>() ;
-			ArrayList<Float> allAverageTimes = new ArrayList<>() ;
-			int index = 0 ;
-
-			for ( ArrayList<Long> AL : calculatedTimes){
-            	bufferedWriter.write("Threads(" + (threadNumbers[index++]) + ")\t");
-            	for ( Long time : AL){
-            		bufferedWriter.write( time + " ms\t\t");
+			int threadIndex = 0 ;
+			int vectorIndex = 0 ;
+			for ( ArrayList<ArrayList<Long>> eachVectorArraylist : calculatedTimes){
+				ArrayList<Float> allAverageTimes = new ArrayList<>() ;
+				ArrayList<Long> allMinimums = new ArrayList<>() ;
+				bufferedWriter.write("==============");
+				bufferedWriter.write("Vector Size(" + (vectorSizes[vectorIndex++]) + ")");
+				bufferedWriter.write("==============\n");
+				for ( ArrayList<Long> AL : eachVectorArraylist){
+					bufferedWriter.write("Threads(" + (threadNumbers[threadIndex++]) + ")\t");
+					for ( Long time : AL){
+						bufferedWriter.write( time + " us || ");
+					}
+					float avgTime = Main.calculateAverage(AL) ;
+					allAverageTimes.add(avgTime) ;
+					bufferedWriter.write("Max: " + Collections.max(AL) + " || Min : " + Collections.min(AL)+ " us || Avg : " + avgTime);
+					allMinimums.add(Collections.min(AL)) ;
+					bufferedWriter.write("\n");
 				}
-				float avgTime = Main.calculateAverage(AL) ;
-				allAverageTimes.add(avgTime) ;
-            	bufferedWriter.write("Max: " + Collections.max(AL) + "\t Min : " + Collections.min(AL)+ " ms\t Avg : " + avgTime);
-				allMinimums.add(Collections.min(AL)) ;
-				bufferedWriter.write("\n");
+				bufferedWriter.write("Min Time (" + Collections.min(allMinimums)+") ");
+				bufferedWriter.write(" || Threads(" + threadNumbers[ Main.findMinThreadIndex(allMinimums) ]+ ")\n");
+				bufferedWriter.write("Min Avg (" + Collections.min(allAverageTimes)+")");
+				bufferedWriter.write(" || Threads(" + threadNumbers[ Main.findMinAvgTimeIndex(allAverageTimes) ]+ ")\n");
+
+
+				threadIndex = 0 ;
 			}
-			int minThreadIndex = Main.findMinThread(allMinimums) ;
-			String min_maxConclusion = "Min :\t" + Collections.min(allMinimums) + " ms | Number of Threads : (" + threadNumbers[minThreadIndex] + " )\n" ;
-			String avgConclusion = "Min Average:\t" + Collections.min(allAverageTimes)  + " ms | Number Of Threads :  ( " + threadNumbers[Main.findMinAvgTime(allAverageTimes)] +" )\n"   ;
-			bufferedWriter.write(min_maxConclusion);
-			bufferedWriter.write(avgConclusion);
-
-
-
+			vectorIndex = 0 ;
             // Always close files.
             bufferedWriter.close();
         }
         catch(Exception ex) {
+        	ex.printStackTrace();
             System.out.println(
                 "\n++++++ERROR++++++\n");
 

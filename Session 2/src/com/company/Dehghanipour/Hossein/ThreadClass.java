@@ -7,6 +7,7 @@ public class ThreadClass extends Thread {
     //Create int array with wanted size
     public static final int MILLION = 1000000;
     public static int THREAD_NUMBER ;
+    public ArrayList<Integer> eachThreadSum = new ArrayList<>() ;
 
     //Vector Values
     public static int ARRAY_SIZE ;
@@ -53,7 +54,7 @@ public class ThreadClass extends Thread {
     }
 
     private void vectorMultiply(int index) {
-        SUMMATION += (HORIZONTAL_VECTOR[index] * VERTICAL_VECTOR[index] );
+        ThreadClass.SUMMATION += HORIZONTAL_VECTOR[index] * VERTICAL_VECTOR[index] ;
     }
 
 
@@ -61,8 +62,8 @@ public class ThreadClass extends Thread {
         // Randomize The vectors
         Random rnd = new Random() ;
         for ( int i = 0 ; i < ThreadClass.ARRAY_SIZE ; i++){
-            ThreadClass.HORIZONTAL_VECTOR[i] = rnd.nextInt(100) + 1 ;
-            ThreadClass.VERTICAL_VECTOR[i] = rnd.nextInt(100) + 1 ;
+            ThreadClass.HORIZONTAL_VECTOR[i] = rnd.nextInt(3) + 1 ;
+            ThreadClass.VERTICAL_VECTOR[i] = rnd.nextInt(3) + 1 ;
         }
     }
     //Main Core :

@@ -7,7 +7,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -15,7 +15,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -23,7 +23,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -31,7 +31,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -39,7 +39,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -47,7 +47,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -55,7 +55,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -63,7 +63,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -71,7 +71,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -79,7 +79,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (2)
 
@@ -89,7 +89,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -97,7 +97,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -105,7 +105,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -113,7 +113,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -121,7 +121,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -129,7 +129,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -137,7 +137,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -145,7 +145,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -153,7 +153,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -161,7 +161,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (5)
 
@@ -171,19 +171,15 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
-STATUS : ...................... < FAIL >..................... 
-
-REAL AMOUNT  : 249094
-
-SUMMATION AMOUNT : 235884
+STATUS : MATCH 
 
 Initial Size : 5
 
-Summation Amount : 235884
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -191,7 +187,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -199,7 +195,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -207,7 +203,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -215,7 +211,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -223,7 +219,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -231,7 +227,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -239,7 +235,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -247,7 +243,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (10)
 
@@ -257,7 +253,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -265,7 +261,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -273,7 +269,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -281,7 +277,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -289,7 +285,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -297,7 +293,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -305,7 +301,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -313,7 +309,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -321,7 +317,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -329,7 +325,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (20)
 
@@ -339,7 +335,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -347,7 +343,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -355,7 +351,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -363,7 +359,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -371,7 +367,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -379,7 +375,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -387,7 +383,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -395,7 +391,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -403,7 +399,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -411,7 +407,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (50)
 
@@ -421,7 +417,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -429,7 +425,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -437,7 +433,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -445,7 +441,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -453,7 +449,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -461,7 +457,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -469,7 +465,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -477,7 +473,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -485,7 +481,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -493,7 +489,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (100)
 
@@ -503,7 +499,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -511,7 +507,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -519,7 +515,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -527,7 +523,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -535,7 +531,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -543,7 +539,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -551,7 +547,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -559,7 +555,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -567,7 +563,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -575,7 +571,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 249094
+Summation Amount : 383
 
 NUMBER_OF_THREADS (150)
 
@@ -585,7 +581,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (1)
 
@@ -593,7 +589,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (2)
 
@@ -601,7 +597,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (3)
 
@@ -609,7 +605,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (4)
 
@@ -617,7 +613,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (5)
 
@@ -625,7 +621,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (6)
 
@@ -633,7 +629,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (7)
 
@@ -641,7 +637,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (8)
 
@@ -649,7 +645,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 LOOP_COUNTER (9)
 
@@ -657,7 +653,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 249094
+Summation Amount : 383
 
 =================================
 
@@ -669,7 +665,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -677,7 +673,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -685,7 +681,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -693,7 +689,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -701,7 +697,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -709,7 +705,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -717,7 +713,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -725,7 +721,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -733,7 +729,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -741,7 +737,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (2)
 
@@ -751,7 +747,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -759,7 +755,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -767,7 +763,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -775,7 +771,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -783,7 +779,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -791,7 +787,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -799,7 +795,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -807,7 +803,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -815,7 +811,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -823,7 +819,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (5)
 
@@ -833,7 +829,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -841,7 +837,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -849,7 +845,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -857,7 +853,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -865,7 +861,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -873,7 +869,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -881,7 +877,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -889,7 +885,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -897,7 +893,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -905,7 +901,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (10)
 
@@ -915,7 +911,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -923,7 +919,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -931,7 +927,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -939,7 +935,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -947,7 +943,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -955,7 +951,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -963,7 +959,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -971,7 +967,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -979,7 +975,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -987,7 +983,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (20)
 
@@ -997,7 +993,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -1005,7 +1001,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -1013,7 +1009,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -1021,7 +1017,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -1029,7 +1025,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -1037,7 +1033,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -1045,7 +1041,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -1053,7 +1049,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -1061,7 +1057,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -1069,7 +1065,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (50)
 
@@ -1079,7 +1075,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -1087,7 +1083,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -1095,7 +1091,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -1103,7 +1099,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -1111,7 +1107,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -1119,7 +1115,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -1127,7 +1123,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -1135,7 +1131,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -1143,7 +1139,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -1151,7 +1147,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (100)
 
@@ -1161,7 +1157,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -1169,7 +1165,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -1177,7 +1173,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -1185,7 +1181,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -1193,7 +1189,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -1201,7 +1197,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -1209,7 +1205,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -1217,7 +1213,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -1225,7 +1221,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -1233,7 +1229,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 NUMBER_OF_THREADS (150)
 
@@ -1243,7 +1239,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (1)
 
@@ -1251,7 +1247,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (2)
 
@@ -1259,7 +1255,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (3)
 
@@ -1267,7 +1263,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (4)
 
@@ -1275,7 +1271,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (5)
 
@@ -1283,7 +1279,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (6)
 
@@ -1291,7 +1287,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (7)
 
@@ -1299,7 +1295,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (8)
 
@@ -1307,7 +1303,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 LOOP_COUNTER (9)
 
@@ -1315,7 +1311,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 2566805
+Summation Amount : 4063
 
 =================================
 
@@ -1327,7 +1323,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1335,7 +1331,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1343,7 +1339,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1351,7 +1347,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1359,7 +1355,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1367,7 +1363,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1375,7 +1371,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1383,7 +1379,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1391,7 +1387,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1399,7 +1395,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (2)
 
@@ -1409,7 +1405,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1417,7 +1413,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1425,7 +1421,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1433,7 +1429,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1441,7 +1437,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1449,7 +1445,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1457,7 +1453,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1465,7 +1461,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1473,7 +1469,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1481,7 +1477,7 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (5)
 
@@ -1491,7 +1487,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1499,7 +1495,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1507,7 +1503,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1515,7 +1511,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1523,7 +1519,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1531,7 +1527,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1539,7 +1535,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1547,7 +1543,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1555,7 +1551,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1563,7 +1559,7 @@ STATUS : MATCH
 
 Initial Size : 5
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (10)
 
@@ -1573,7 +1569,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1581,7 +1577,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1589,7 +1585,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1597,7 +1593,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1605,7 +1601,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1613,7 +1609,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1621,7 +1617,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1629,7 +1625,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1637,7 +1633,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1645,7 +1641,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (20)
 
@@ -1655,7 +1651,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1663,7 +1659,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1671,7 +1667,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1679,7 +1675,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1687,7 +1683,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1695,7 +1691,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1703,7 +1699,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1711,15 +1707,19 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 40212
+
+SUMMATION AMOUNT : 39807
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 39807
 
 LOOP_COUNTER (9)
 
@@ -1727,7 +1727,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (50)
 
@@ -1737,7 +1737,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1745,7 +1745,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1753,7 +1753,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1761,7 +1761,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1769,7 +1769,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1777,7 +1777,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1785,7 +1785,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1793,7 +1793,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1801,7 +1801,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1809,7 +1809,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (100)
 
@@ -1819,7 +1819,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1827,7 +1827,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1835,7 +1835,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1843,7 +1843,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1851,7 +1851,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1859,7 +1859,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1867,7 +1867,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1875,7 +1875,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1883,7 +1883,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1891,7 +1891,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 NUMBER_OF_THREADS (150)
 
@@ -1901,7 +1901,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (1)
 
@@ -1909,7 +1909,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (2)
 
@@ -1917,7 +1917,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (3)
 
@@ -1925,7 +1925,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (4)
 
@@ -1933,7 +1933,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (5)
 
@@ -1941,7 +1941,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (6)
 
@@ -1949,7 +1949,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (7)
 
@@ -1957,7 +1957,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (8)
 
@@ -1965,7 +1965,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 LOOP_COUNTER (9)
 
@@ -1973,7 +1973,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 25299298
+Summation Amount : 40212
 
 =================================
 
@@ -1985,7 +1985,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (1)
 
@@ -1993,7 +1993,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (2)
 
@@ -2001,7 +2001,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (3)
 
@@ -2009,7 +2009,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (4)
 
@@ -2017,7 +2017,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (5)
 
@@ -2025,7 +2025,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (6)
 
@@ -2033,7 +2033,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (7)
 
@@ -2041,7 +2041,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (8)
 
@@ -2049,7 +2049,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (9)
 
@@ -2057,7 +2057,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 NUMBER_OF_THREADS (2)
 
@@ -2067,179 +2067,251 @@ STATUS : MATCH
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (1)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 341048
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 341048
 
 LOOP_COUNTER (2)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 372254
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 372254
 
 LOOP_COUNTER (3)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 351015
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 351015
 
 LOOP_COUNTER (4)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 277519
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 277519
 
 LOOP_COUNTER (5)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 267645
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 267645
 
 LOOP_COUNTER (6)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 199763
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 199763
 
 LOOP_COUNTER (7)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 254202132
+REAL AMOUNT  : 399195
 
-SUMMATION AMOUNT : 198668616
+SUMMATION AMOUNT : 318581
 
 Initial Size : 2
 
-Summation Amount : 198668616
+Summation Amount : 318581
 
 LOOP_COUNTER (8)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 271297
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 271297
 
 LOOP_COUNTER (9)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 326711
 
 Initial Size : 2
 
-Summation Amount : 254202132
+Summation Amount : 326711
 
 NUMBER_OF_THREADS (5)
 
 LOOP_COUNTER (0)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 295224
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 295224
 
 LOOP_COUNTER (1)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 248826
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 248826
 
 LOOP_COUNTER (2)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 379739
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 379739
 
 LOOP_COUNTER (3)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 253080
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 253080
 
 LOOP_COUNTER (4)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 215336
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 215336
 
 LOOP_COUNTER (5)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 251392
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 251392
 
 LOOP_COUNTER (6)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 258215
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 258215
 
 LOOP_COUNTER (7)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 254202132
+REAL AMOUNT  : 399195
 
-SUMMATION AMOUNT : 253077162
+SUMMATION AMOUNT : 308665
 
 Initial Size : 5
 
-Summation Amount : 253077162
+Summation Amount : 308665
 
 LOOP_COUNTER (8)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 378321
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 378321
 
 LOOP_COUNTER (9)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 229011
 
 Initial Size : 5
 
-Summation Amount : 254202132
+Summation Amount : 229011
 
 NUMBER_OF_THREADS (10)
 
 LOOP_COUNTER (0)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 333234
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 333234
 
 LOOP_COUNTER (1)
 
@@ -2247,39 +2319,55 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (2)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 368476
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 368476
 
 LOOP_COUNTER (3)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 278591
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 278591
 
 LOOP_COUNTER (4)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 358946
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 358946
 
 LOOP_COUNTER (5)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 395054
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 395054
 
 LOOP_COUNTER (6)
 
@@ -2287,7 +2375,7 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (7)
 
@@ -2295,27 +2383,27 @@ STATUS : MATCH
 
 Initial Size : 10
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 395929
+
+Initial Size : 10
+
+Summation Amount : 395929
+
+LOOP_COUNTER (9)
 
 STATUS : MATCH 
 
 Initial Size : 10
 
-Summation Amount : 254202132
-
-LOOP_COUNTER (9)
-
-STATUS : ...................... < FAIL >..................... 
-
-REAL AMOUNT  : 254202132
-
-SUMMATION AMOUNT : 244287671
-
-Initial Size : 10
-
-Summation Amount : 244287671
+Summation Amount : 399195
 
 NUMBER_OF_THREADS (20)
 
@@ -2325,15 +2413,19 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (1)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 381745
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 381745
 
 LOOP_COUNTER (2)
 
@@ -2341,7 +2433,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (3)
 
@@ -2349,15 +2441,19 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (4)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 349037
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 349037
 
 LOOP_COUNTER (5)
 
@@ -2365,23 +2461,31 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (6)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 386417
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 386417
 
 LOOP_COUNTER (7)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 391755
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 391755
 
 LOOP_COUNTER (8)
 
@@ -2389,7 +2493,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (9)
 
@@ -2397,7 +2501,7 @@ STATUS : MATCH
 
 Initial Size : 20
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 NUMBER_OF_THREADS (50)
 
@@ -2407,7 +2511,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (1)
 
@@ -2415,7 +2519,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (2)
 
@@ -2423,23 +2527,31 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (3)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 391232
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 391232
 
 LOOP_COUNTER (4)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 395261
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 395261
 
 LOOP_COUNTER (5)
 
@@ -2447,31 +2559,43 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (6)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 390908
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 390908
 
 LOOP_COUNTER (7)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 388481
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 388481
 
 LOOP_COUNTER (8)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 397365
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 397365
 
 LOOP_COUNTER (9)
 
@@ -2479,7 +2603,7 @@ STATUS : MATCH
 
 Initial Size : 50
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 NUMBER_OF_THREADS (100)
 
@@ -2489,7 +2613,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (1)
 
@@ -2497,19 +2621,15 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (2)
 
-STATUS : ...................... < FAIL >..................... 
-
-REAL AMOUNT  : 254202132
-
-SUMMATION AMOUNT : 252700233
+STATUS : MATCH 
 
 Initial Size : 100
 
-Summation Amount : 252700233
+Summation Amount : 399195
 
 LOOP_COUNTER (3)
 
@@ -2517,7 +2637,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (4)
 
@@ -2525,7 +2645,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (5)
 
@@ -2533,7 +2653,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (6)
 
@@ -2541,7 +2661,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (7)
 
@@ -2549,7 +2669,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (8)
 
@@ -2557,7 +2677,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (9)
 
@@ -2565,7 +2685,7 @@ STATUS : MATCH
 
 Initial Size : 100
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 NUMBER_OF_THREADS (150)
 
@@ -2575,7 +2695,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (1)
 
@@ -2583,23 +2703,31 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (2)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 393950
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 393950
 
 LOOP_COUNTER (3)
 
-STATUS : MATCH 
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 397264
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 397264
 
 LOOP_COUNTER (4)
 
@@ -2607,7 +2735,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (5)
 
@@ -2615,7 +2743,7 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (6)
 
@@ -2623,38 +2751,980 @@ STATUS : MATCH
 
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 399195
 
 LOOP_COUNTER (7)
 
-STATUS : ...................... < FAIL >..................... 
-
-REAL AMOUNT  : 254202132
-
-SUMMATION AMOUNT : 252840088
+STATUS : MATCH 
 
 Initial Size : 150
 
-Summation Amount : 252840088
+Summation Amount : 399195
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 396509
+
+Initial Size : 150
+
+Summation Amount : 396509
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 399195
+
+SUMMATION AMOUNT : 396980
+
+Initial Size : 150
+
+Summation Amount : 396980
+
+=================================
+
+NUMBER_OF_THREADS (1)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 3997869
 
 LOOP_COUNTER (8)
 
 STATUS : MATCH 
 
-Initial Size : 150
+Initial Size : 1
 
-Summation Amount : 254202132
+Summation Amount : 3997869
 
 LOOP_COUNTER (9)
 
 STATUS : MATCH 
 
+Initial Size : 1
+
+Summation Amount : 3997869
+
+NUMBER_OF_THREADS (2)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2228625
+
+Initial Size : 2
+
+Summation Amount : 2228625
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2282454
+
+Initial Size : 2
+
+Summation Amount : 2282454
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2240486
+
+Initial Size : 2
+
+Summation Amount : 2240486
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2275304
+
+Initial Size : 2
+
+Summation Amount : 2275304
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1998424
+
+Initial Size : 2
+
+Summation Amount : 1998424
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1998424
+
+Initial Size : 2
+
+Summation Amount : 1998424
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2366554
+
+Initial Size : 2
+
+Summation Amount : 2366554
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1998424
+
+Initial Size : 2
+
+Summation Amount : 1998424
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2408179
+
+Initial Size : 2
+
+Summation Amount : 2408179
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2354849
+
+Initial Size : 2
+
+Summation Amount : 2354849
+
+NUMBER_OF_THREADS (5)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 944749
+
+Initial Size : 5
+
+Summation Amount : 944749
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 962489
+
+Initial Size : 5
+
+Summation Amount : 962489
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 953992
+
+Initial Size : 5
+
+Summation Amount : 953992
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1069644
+
+Initial Size : 5
+
+Summation Amount : 1069644
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 906191
+
+Initial Size : 5
+
+Summation Amount : 906191
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1016223
+
+Initial Size : 5
+
+Summation Amount : 1016223
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1070932
+
+Initial Size : 5
+
+Summation Amount : 1070932
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 930785
+
+Initial Size : 5
+
+Summation Amount : 930785
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 978126
+
+Initial Size : 5
+
+Summation Amount : 978126
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 935115
+
+Initial Size : 5
+
+Summation Amount : 935115
+
+NUMBER_OF_THREADS (10)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 943017
+
+Initial Size : 10
+
+Summation Amount : 943017
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 826044
+
+Initial Size : 10
+
+Summation Amount : 826044
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 850383
+
+Initial Size : 10
+
+Summation Amount : 850383
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 931060
+
+Initial Size : 10
+
+Summation Amount : 931060
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 901090
+
+Initial Size : 10
+
+Summation Amount : 901090
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 932117
+
+Initial Size : 10
+
+Summation Amount : 932117
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 963236
+
+Initial Size : 10
+
+Summation Amount : 963236
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 875067
+
+Initial Size : 10
+
+Summation Amount : 875067
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 941773
+
+Initial Size : 10
+
+Summation Amount : 941773
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 852732
+
+Initial Size : 10
+
+Summation Amount : 852732
+
+NUMBER_OF_THREADS (20)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 726540
+
+Initial Size : 20
+
+Summation Amount : 726540
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 606577
+
+Initial Size : 20
+
+Summation Amount : 606577
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 782091
+
+Initial Size : 20
+
+Summation Amount : 782091
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 728533
+
+Initial Size : 20
+
+Summation Amount : 728533
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 715256
+
+Initial Size : 20
+
+Summation Amount : 715256
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 735241
+
+Initial Size : 20
+
+Summation Amount : 735241
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 669407
+
+Initial Size : 20
+
+Summation Amount : 669407
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 815178
+
+Initial Size : 20
+
+Summation Amount : 815178
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 863939
+
+Initial Size : 20
+
+Summation Amount : 863939
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 705539
+
+Initial Size : 20
+
+Summation Amount : 705539
+
+NUMBER_OF_THREADS (50)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 800794
+
+Initial Size : 50
+
+Summation Amount : 800794
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 784370
+
+Initial Size : 50
+
+Summation Amount : 784370
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 827587
+
+Initial Size : 50
+
+Summation Amount : 827587
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 753576
+
+Initial Size : 50
+
+Summation Amount : 753576
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 821396
+
+Initial Size : 50
+
+Summation Amount : 821396
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 765251
+
+Initial Size : 50
+
+Summation Amount : 765251
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 784260
+
+Initial Size : 50
+
+Summation Amount : 784260
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 795702
+
+Initial Size : 50
+
+Summation Amount : 795702
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 799637
+
+Initial Size : 50
+
+Summation Amount : 799637
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 874474
+
+Initial Size : 50
+
+Summation Amount : 874474
+
+NUMBER_OF_THREADS (100)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1559272
+
+Initial Size : 100
+
+Summation Amount : 1559272
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1519420
+
+Initial Size : 100
+
+Summation Amount : 1519420
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1449180
+
+Initial Size : 100
+
+Summation Amount : 1449180
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1403757
+
+Initial Size : 100
+
+Summation Amount : 1403757
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1372200
+
+Initial Size : 100
+
+Summation Amount : 1372200
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1401862
+
+Initial Size : 100
+
+Summation Amount : 1401862
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1421187
+
+Initial Size : 100
+
+Summation Amount : 1421187
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1499051
+
+Initial Size : 100
+
+Summation Amount : 1499051
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1361320
+
+Initial Size : 100
+
+Summation Amount : 1361320
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 1517989
+
+Initial Size : 100
+
+Summation Amount : 1517989
+
+NUMBER_OF_THREADS (150)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3297969
+
 Initial Size : 150
 
-Summation Amount : 254202132
+Summation Amount : 3297969
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3164498
+
+Initial Size : 150
+
+Summation Amount : 3164498
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3007388
+
+Initial Size : 150
+
+Summation Amount : 3007388
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2683000
+
+Initial Size : 150
+
+Summation Amount : 2683000
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3221099
+
+Initial Size : 150
+
+Summation Amount : 3221099
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3144178
+
+Initial Size : 150
+
+Summation Amount : 3144178
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2858508
+
+Initial Size : 150
+
+Summation Amount : 2858508
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3397558
+
+Initial Size : 150
+
+Summation Amount : 3397558
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 3238827
+
+Initial Size : 150
+
+Summation Amount : 3238827
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 3997869
+
+SUMMATION AMOUNT : 2912025
+
+Initial Size : 150
+
+Summation Amount : 2912025
 
 =================================
 
-Fails : 6
-Matches : 314
-Total : 320
+Fails : 109
+Matches : 291
+Total : 400

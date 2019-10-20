@@ -112,7 +112,8 @@ public class Main {
         //Initializations
         ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes = new ArrayList<>() ;
         int[] threadNumbers =  {1,2,5,10,20,50,100,150};
-        int[] vectorSizes = {100 , 1000 , 10000 , 100000}; // What TA asked Us to do
+        int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
+        //int[] vectorSizes = {100000000}; // What TA asked Us to do
         //For vector size more that 100K , overflow will happen. You can add the number above if you want.
 
         ArrayList<Long> summations =  new ArrayList<>() ;

@@ -7,8 +7,6 @@ public class ThreadClass extends Thread {
     //Create int array with wanted size
     public static final int MILLION = 1000000;
     public static int THREAD_NUMBER ;
-    public ArrayList<Integer> eachThreadSum = new ArrayList<>() ;
-
     private  int chunkSize , startIndex , endIndex , jumpAmount;
 
     //Vector Values
@@ -34,11 +32,9 @@ public class ThreadClass extends Thread {
         ARRAY_SIZE = arraySize ;
         ThreadClass.HORIZONTAL_VECTOR = new int[ARRAY_SIZE];
         ThreadClass.VERTICAL_VECTOR = new int[ARRAY_SIZE];
-        randomizeArrays(arraySize);
+        randomizeArrays();
     }
 
-    public ThreadClass() {
-    }
 
     public static void createThreadPool(int THREAD_NUMBER) {
         ThreadClass.THREAD_NUMBER = THREAD_NUMBER;
@@ -55,7 +51,7 @@ public class ThreadClass extends Thread {
         ThreadClass.SUMMATION = 0 ;
     }
 
-    private static void randomizeArrays(int vectorSize){
+    private static void randomizeArrays(){
         // Randomize The vectors
         Random rnd = new Random() ;
         for ( int i = 0 ; i < ThreadClass.ARRAY_SIZE ; i++){
@@ -64,9 +60,6 @@ public class ThreadClass extends Thread {
         }
     }
 
-    public  static void setLoopConditions(int st , int en , int cs) {
-
-    }
     //Main Core :
     @Override
     public void run() {
@@ -89,16 +82,5 @@ public class ThreadClass extends Thread {
 
         }
     }
-
-    public static String printArray(int arr[]){
-        StringBuilder builder = new StringBuilder() ;
-        for ( Integer i : arr){
-            System.out.print(i + "|");
-            builder.append(i + "|");
-        }
-        System.out.println();
-        return builder.toString();
-    }
-
 }
 

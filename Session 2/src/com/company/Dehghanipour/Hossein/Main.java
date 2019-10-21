@@ -23,6 +23,7 @@ public class Main {
         long startTime = System.nanoTime();
         //Create a ThreadPool due to the number of wanted threads
         ThreadClass.createThreadPool(numberOfThreads);
+
         for ( ThreadClass p : ThreadClass.threadPool){
             p.start();
         }
@@ -113,11 +114,10 @@ public class Main {
         final int THOUSAND = 1000 ;
         ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes = new ArrayList<>() ;
         int[] threadNumbers =  {1,2,5,10,20,50,100,150};
-        //int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
-        int[] vectorSizes = {2*THOUSAND}; //EXP
+        int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000 , 400 * MILLION}; // What TA asked Us to do
 
         ArrayList<Long> summations =  new ArrayList<>() ;
-        final int LOOP_COUNTER = 1 ;
+        final int LOOP_COUNTER = 10 ;
         long calculatedTime = 0 ;
         System.out.println("Let's do this ;) ");
         //CORE :

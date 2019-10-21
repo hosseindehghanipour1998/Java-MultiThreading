@@ -7,7 +7,79 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 7791
+Summation Amount : 420
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 420
 
 NUMBER_OF_THREADS (2)
 
@@ -15,13 +87,121 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 420
 
-SUMMATION AMOUNT : 3974
+SUMMATION AMOUNT : 222
 
 Initial Size : 2
 
-Summation Amount : 3974
+Summation Amount : 222
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 222
+
+Initial Size : 2
+
+Summation Amount : 222
 
 NUMBER_OF_THREADS (5)
 
@@ -29,13 +209,121 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 420
 
-SUMMATION AMOUNT : 1600
+SUMMATION AMOUNT : 106
 
 Initial Size : 5
 
-Summation Amount : 1600
+Summation Amount : 106
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 106
+
+Initial Size : 5
+
+Summation Amount : 106
 
 NUMBER_OF_THREADS (10)
 
@@ -43,13 +331,121 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 420
 
-SUMMATION AMOUNT : 864
+SUMMATION AMOUNT : 60
 
 Initial Size : 10
 
-Summation Amount : 864
+Summation Amount : 60
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 60
+
+Initial Size : 10
+
+Summation Amount : 60
 
 NUMBER_OF_THREADS (20)
 
@@ -57,13 +453,121 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 420
 
-SUMMATION AMOUNT : 418
+SUMMATION AMOUNT : 30
 
 Initial Size : 20
 
-Summation Amount : 418
+Summation Amount : 30
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 30
+
+Initial Size : 20
+
+Summation Amount : 30
 
 NUMBER_OF_THREADS (50)
 
@@ -71,13 +575,979 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 420
 
-SUMMATION AMOUNT : 162
+SUMMATION AMOUNT : 15
 
 Initial Size : 50
 
-Summation Amount : 162
+Summation Amount : 15
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 420
+
+SUMMATION AMOUNT : 15
+
+Initial Size : 50
+
+Summation Amount : 15
+
+NUMBER_OF_THREADS (100)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 100
+
+Summation Amount : 420
+
+NUMBER_OF_THREADS (150)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 150
+
+Summation Amount : 420
+
+=================================
+
+NUMBER_OF_THREADS (1)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4009
+
+NUMBER_OF_THREADS (2)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 1937
+
+Initial Size : 2
+
+Summation Amount : 1937
+
+NUMBER_OF_THREADS (5)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 753
+
+Initial Size : 5
+
+Summation Amount : 753
+
+NUMBER_OF_THREADS (10)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 370
+
+Initial Size : 10
+
+Summation Amount : 370
+
+NUMBER_OF_THREADS (20)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 195
+
+Initial Size : 20
+
+Summation Amount : 195
+
+NUMBER_OF_THREADS (50)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 70
+
+Initial Size : 50
+
+Summation Amount : 70
 
 NUMBER_OF_THREADS (100)
 
@@ -85,13 +1555,121 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 4009
 
-SUMMATION AMOUNT : 91
+SUMMATION AMOUNT : 39
 
 Initial Size : 100
 
-Summation Amount : 91
+Summation Amount : 39
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 39
+
+Initial Size : 100
+
+Summation Amount : 39
 
 NUMBER_OF_THREADS (150)
 
@@ -99,16 +1677,3876 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 7791
+REAL AMOUNT  : 4009
 
-SUMMATION AMOUNT : 54
+SUMMATION AMOUNT : 25
 
 Initial Size : 150
 
-Summation Amount : 54
+Summation Amount : 25
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4009
+
+SUMMATION AMOUNT : 25
+
+Initial Size : 150
+
+Summation Amount : 25
 
 =================================
 
-Fails : 7
-Matches : 1
-Total : 8
+NUMBER_OF_THREADS (1)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 39975
+
+NUMBER_OF_THREADS (2)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 20019
+
+Initial Size : 2
+
+Summation Amount : 20019
+
+NUMBER_OF_THREADS (5)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 7896
+
+Initial Size : 5
+
+Summation Amount : 7896
+
+NUMBER_OF_THREADS (10)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 3876
+
+Initial Size : 10
+
+Summation Amount : 3876
+
+NUMBER_OF_THREADS (20)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 1865
+
+Initial Size : 20
+
+Summation Amount : 1865
+
+NUMBER_OF_THREADS (50)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 697
+
+Initial Size : 50
+
+Summation Amount : 697
+
+NUMBER_OF_THREADS (100)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 344
+
+Initial Size : 100
+
+Summation Amount : 344
+
+NUMBER_OF_THREADS (150)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 39975
+
+SUMMATION AMOUNT : 233
+
+Initial Size : 150
+
+Summation Amount : 233
+
+=================================
+
+NUMBER_OF_THREADS (1)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 400100
+
+NUMBER_OF_THREADS (2)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200703
+
+Initial Size : 2
+
+Summation Amount : 200703
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 200709
+
+Initial Size : 2
+
+Summation Amount : 200709
+
+NUMBER_OF_THREADS (5)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 80376
+
+Initial Size : 5
+
+Summation Amount : 80376
+
+NUMBER_OF_THREADS (10)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 40220
+
+Initial Size : 10
+
+Summation Amount : 40220
+
+NUMBER_OF_THREADS (20)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 20160
+
+Initial Size : 20
+
+Summation Amount : 20160
+
+NUMBER_OF_THREADS (50)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 8079
+
+Initial Size : 50
+
+Summation Amount : 8079
+
+NUMBER_OF_THREADS (100)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 4028
+
+Initial Size : 100
+
+Summation Amount : 4028
+
+NUMBER_OF_THREADS (150)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 400100
+
+SUMMATION AMOUNT : 2678
+
+Initial Size : 150
+
+Summation Amount : 2678
+
+=================================
+
+NUMBER_OF_THREADS (1)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 4000744
+
+NUMBER_OF_THREADS (2)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 1999953
+
+Initial Size : 2
+
+Summation Amount : 1999953
+
+NUMBER_OF_THREADS (5)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799904
+
+Initial Size : 5
+
+Summation Amount : 799904
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 799907
+
+Initial Size : 5
+
+Summation Amount : 799907
+
+NUMBER_OF_THREADS (10)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399815
+
+Initial Size : 10
+
+Summation Amount : 399815
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399815
+
+Initial Size : 10
+
+Summation Amount : 399815
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 399813
+
+Initial Size : 10
+
+Summation Amount : 399813
+
+NUMBER_OF_THREADS (20)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200453
+
+Initial Size : 20
+
+Summation Amount : 200453
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200451
+
+Initial Size : 20
+
+Summation Amount : 200451
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200453
+
+Initial Size : 20
+
+Summation Amount : 200453
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200451
+
+Initial Size : 20
+
+Summation Amount : 200451
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200451
+
+Initial Size : 20
+
+Summation Amount : 200451
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200453
+
+Initial Size : 20
+
+Summation Amount : 200453
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200451
+
+Initial Size : 20
+
+Summation Amount : 200451
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200451
+
+Initial Size : 20
+
+Summation Amount : 200451
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200453
+
+Initial Size : 20
+
+Summation Amount : 200453
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 200451
+
+Initial Size : 20
+
+Summation Amount : 200451
+
+NUMBER_OF_THREADS (50)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80507
+
+Initial Size : 50
+
+Summation Amount : 80507
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 80504
+
+Initial Size : 50
+
+Summation Amount : 80504
+
+NUMBER_OF_THREADS (100)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 40242
+
+Initial Size : 100
+
+Summation Amount : 40242
+
+NUMBER_OF_THREADS (150)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 4000744
+
+SUMMATION AMOUNT : 26874
+
+Initial Size : 150
+
+Summation Amount : 26874
+
+=================================
+
+NUMBER_OF_THREADS (1)
+
+LOOP_COUNTER (0)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (1)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (2)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (3)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (4)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (5)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (6)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (7)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (8)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+LOOP_COUNTER (9)
+
+STATUS : MATCH 
+
+Initial Size : 1
+
+Summation Amount : 1599991757
+
+NUMBER_OF_THREADS (2)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 800004836
+
+Initial Size : 2
+
+Summation Amount : 800004836
+
+NUMBER_OF_THREADS (5)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 320002465
+
+Initial Size : 5
+
+Summation Amount : 320002465
+
+NUMBER_OF_THREADS (10)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 160006433
+
+Initial Size : 10
+
+Summation Amount : 160006433
+
+NUMBER_OF_THREADS (20)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 80007007
+
+Initial Size : 20
+
+Summation Amount : 80007007
+
+NUMBER_OF_THREADS (50)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 32001307
+
+Initial Size : 50
+
+Summation Amount : 32001307
+
+NUMBER_OF_THREADS (100)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 15994039
+
+Initial Size : 100
+
+Summation Amount : 15994039
+
+NUMBER_OF_THREADS (150)
+
+LOOP_COUNTER (0)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (1)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (2)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (3)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (4)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (5)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (6)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (7)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (8)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+LOOP_COUNTER (9)
+
+STATUS : ...................... < FAIL >..................... 
+
+REAL AMOUNT  : 1599991757
+
+SUMMATION AMOUNT : 10662007
+
+Initial Size : 150
+
+Summation Amount : 10662007
+
+=================================
+
+Fails : 400
+Matches : 80
+Total : 480

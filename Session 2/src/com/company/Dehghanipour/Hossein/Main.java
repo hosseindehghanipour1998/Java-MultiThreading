@@ -88,6 +88,7 @@ public class Main {
         final int LOOP_COUNTER = 10 ;
         long calculatedTime = 0 ;
         System.out.println("Let's do this ;) ");
+        System.out.println("Program started ... please Wait !");
         //CORE :
         for ( int matrixSize : vectorSizes){ // Vector
             ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
@@ -106,10 +107,11 @@ public class Main {
             }
             allThreadsTimes.add(eachTaskTimes);
         }
-        printTheTable(allThreadsTimes,threadNumbers,vectorSizes,summations) ;
+        //printTheTable(allThreadsTimes,threadNumbers,vectorSizes,summations) ;
         IODevice ioDevice = new IODevice();
         ioDevice.writeFile("Results.txt",allThreadsTimes,threadNumbers,vectorSizes);
         System.out.println("End Of Program ... :))  ");
+        System.out.println("Please Check \"Results.txt\" which is created by running this program.");
     }
 
 

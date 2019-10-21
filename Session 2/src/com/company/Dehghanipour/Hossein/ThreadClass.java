@@ -2,12 +2,14 @@ package com.company.Dehghanipour.Hossein;
 
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.*;
 
 public class ThreadClass extends Thread {
     //Create int array with wanted size
     public static final int MILLION = 1000000;
     public static int THREAD_NUMBER ;
     public ArrayList<Integer> eachThreadSum = new ArrayList<>() ;
+    private Semaphore sem = new Semaphore(1) ;
 
     //Vector Values
     public static int ARRAY_SIZE ;
@@ -53,11 +55,6 @@ public class ThreadClass extends Thread {
         ThreadClass.SUMMATION = 0 ;
     }
 
-    private void vectorMultiply(int index) {
-        ThreadClass.SUMMATION += HORIZONTAL_VECTOR[index] * VERTICAL_VECTOR[index] ;
-    }
-
-
     private static void randomizeArrays(int vectorSize){
         // Randomize The vectors
         Random rnd = new Random() ;
@@ -70,8 +67,18 @@ public class ThreadClass extends Thread {
     @Override
     public void run() {
         //super.run();
-        for (whichIndex = id; ((whichIndex) < ARRAY_SIZE ); whichIndex += THREAD_NUMBER) {
-            vectorMultiply(whichIndex);
+        int chunk_size = ARRAY_SIZE / THREAD_NUMBER ;
+        int i = 0 ;
+        for (whichIndex = id * chunk_size ; (whichIndex) < ( id + chunk_size ) && whichIndex < ARRAY_SIZE; whichIndex += 1 ) {
+
+            try{
+                sem.acquire();
+                ThreadClass.SUMMATION += HORIZONTAL_VECTOR[whichIndex] * VERTICAL_VECTOR[whichIndex] ;
+                sem.release();
+            }catch (Exception e){
+                sem.release();
+            }
+
         }
     }
 
@@ -83,6 +90,10 @@ public class ThreadClass extends Thread {
         }
         System.out.println();
         return builder.toString();
+    }
+
+    public void showInfo(){
+        System.out.println(this.id);
     }
 }
 

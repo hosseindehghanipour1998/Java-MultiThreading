@@ -1,55 +1,11 @@
-==============Vector Size(100)==============
-Threads(1)	562 us || 516 us || 469 us || 349 us || 429 us || 447 us || 431 us || 387 us || 469 us || 471 us || Max: 562 || Min : 349 us || Avg : 453.0
-Threads(2)	658 us || 451 us || 512 us || 546 us || 759 us || 524 us || 578 us || 621 us || 605 us || 729 us || Max: 759 || Min : 451 us || Avg : 598.0
-Threads(5)	1574 us || 1585 us || 811 us || 766 us || 926 us || 1058 us || 854 us || 777 us || 835 us || 883 us || Max: 1585 || Min : 766 us || Avg : 1006.0
-Threads(10)	1623 us || 1347 us || 1447 us || 1452 us || 1225 us || 1374 us || 1980 us || 2375 us || 1378 us || 1405 us || Max: 2375 || Min : 1225 us || Avg : 1560.0
-Threads(20)	2439 us || 2189 us || 6640 us || 2795 us || 2798 us || 5114 us || 2017 us || 2074 us || 2127 us || 2487 us || Max: 6640 || Min : 2017 us || Avg : 3068.0
-Threads(50)	5901 us || 5720 us || 5824 us || 5211 us || 4215 us || 5360 us || 5098 us || 5278 us || 5878 us || 5235 us || Max: 5901 || Min : 4215 us || Avg : 5372.0
-Threads(100)	10444 us || 10138 us || 10905 us || 11231 us || 11916 us || 11746 us || 11881 us || 12564 us || 12212 us || 11759 us || Max: 12564 || Min : 10138 us || Avg : 11479.0
-Threads(150)	16728 us || 18857 us || 16299 us || 16193 us || 17819 us || 16485 us || 17983 us || 17865 us || 16599 us || 17264 us || Max: 18857 || Min : 16193 us || Avg : 17209.0
-Min Time (349)  || Threads(1)
-Min Avg (453.0) || Threads(1)
-==============Vector Size(1000)==============
-Threads(1)	478 us || 486 us || 423 us || 530 us || 464 us || 487 us || 428 us || 389 us || 433 us || 416 us || Max: 530 || Min : 389 us || Avg : 453.0
-Threads(2)	549 us || 687 us || 513 us || 659 us || 500 us || 640 us || 637 us || 711 us || 487 us || 707 us || Max: 711 || Min : 487 us || Avg : 609.0
-Threads(5)	984 us || 785 us || 893 us || 887 us || 1170 us || 1058 us || 971 us || 1142 us || 1099 us || 1244 us || Max: 1244 || Min : 785 us || Avg : 1023.0
-Threads(10)	1817 us || 1184 us || 1995 us || 1258 us || 1897 us || 1807 us || 1730 us || 1644 us || 2202 us || 2289 us || Max: 2289 || Min : 1184 us || Avg : 1782.0
-Threads(20)	6916 us || 2410 us || 3109 us || 3173 us || 3628 us || 3352 us || 3536 us || 3231 us || 3580 us || 2188 us || Max: 6916 || Min : 2188 us || Avg : 3512.0
-Threads(50)	5657 us || 6831 us || 7346 us || 7179 us || 15228 us || 15508 us || 10033 us || 6700 us || 5853 us || 6182 us || Max: 15508 || Min : 5657 us || Avg : 8651.0
-Threads(100)	12378 us || 12361 us || 12342 us || 12686 us || 12265 us || 12099 us || 12258 us || 13267 us || 12265 us || 12795 us || Max: 13267 || Min : 12099 us || Avg : 12471.0
-Threads(150)	18401 us || 17989 us || 17539 us || 17536 us || 17827 us || 20958 us || 18143 us || 18897 us || 17027 us || 17224 us || Max: 20958 || Min : 17027 us || Avg : 18154.0
-Min Time (389)  || Threads(1)
-Min Avg (453.0) || Threads(1)
-==============Vector Size(10000)==============
-Threads(1)	460 us || 456 us || 436 us || 424 us || 426 us || 412 us || 390 us || 431 us || 463 us || 431 us || Max: 463 || Min : 390 us || Avg : 432.0
-Threads(2)	662 us || 477 us || 2162 us || 545 us || 383 us || 569 us || 363 us || 397 us || 366 us || 355 us || Max: 2162 || Min : 355 us || Avg : 627.0
-Threads(5)	604 us || 660 us || 640 us || 676 us || 633 us || 627 us || 609 us || 584 us || 645 us || 524 us || Max: 676 || Min : 524 us || Avg : 620.0
-Threads(10)	1021 us || 1105 us || 1046 us || 1199 us || 1097 us || 993 us || 921 us || 891 us || 1120 us || 1123 us || Max: 1199 || Min : 891 us || Avg : 1051.0
-Threads(20)	1938 us || 1882 us || 1681 us || 2017 us || 1875 us || 2285 us || 2044 us || 1997 us || 1856 us || 1830 us || Max: 2285 || Min : 1681 us || Avg : 1940.0
-Threads(50)	4928 us || 4794 us || 7732 us || 4607 us || 4715 us || 4425 us || 4215 us || 4432 us || 4632 us || 4838 us || Max: 7732 || Min : 4215 us || Avg : 4931.0
-Threads(100)	9533 us || 9218 us || 11148 us || 10755 us || 10492 us || 9424 us || 9328 us || 10056 us || 9872 us || 10008 us || Max: 11148 || Min : 9218 us || Avg : 9983.0
-Threads(150)	15667 us || 13901 us || 15287 us || 15529 us || 14942 us || 16739 us || 14737 us || 14330 us || 14513 us || 14360 us || Max: 16739 || Min : 13901 us || Avg : 15000.0
-Min Time (355)  || Threads(2)
-Min Avg (432.0) || Threads(1)
-==============Vector Size(100000)==============
-Threads(1)	559 us || 541 us || 432 us || 516 us || 550 us || 483 us || 663 us || 563 us || 597 us || 543 us || Max: 663 || Min : 432 us || Avg : 544.0
-Threads(2)	662 us || 599 us || 734 us || 696 us || 884 us || 835 us || 653 us || 617 us || 779 us || 680 us || Max: 884 || Min : 599 us || Avg : 713.0
-Threads(5)	1007 us || 782 us || 765 us || 798 us || 866 us || 870 us || 899 us || 819 us || 1054 us || 1343 us || Max: 1343 || Min : 765 us || Avg : 920.0
-Threads(10)	1208 us || 1713 us || 1496 us || 1475 us || 1060 us || 1270 us || 1364 us || 991 us || 1446 us || 1774 us || Max: 1774 || Min : 991 us || Avg : 1379.0
-Threads(20)	3325 us || 3042 us || 3116 us || 3044 us || 1892 us || 2441 us || 2906 us || 1949 us || 2849 us || 3889 us || Max: 3889 || Min : 1892 us || Avg : 2845.0
-Threads(50)	10440 us || 9034 us || 16094 us || 17853 us || 6163 us || 9925 us || 11709 us || 6743 us || 7218 us || 9996 us || Max: 17853 || Min : 6163 us || Avg : 10517.0
-Threads(100)	12792 us || 24284 us || 26754 us || 16469 us || 16934 us || 27179 us || 19986 us || 16896 us || 19601 us || 19722 us || Max: 27179 || Min : 12792 us || Avg : 20061.0
-Threads(150)	16597 us || 17194 us || 17096 us || 16152 us || 17286 us || 16589 us || 17068 us || 17257 us || 17164 us || 17095 us || Max: 17286 || Min : 16152 us || Avg : 16949.0
-Min Time (432)  || Threads(1)
-Min Avg (544.0) || Threads(1)
-==============Vector Size(1000000)==============
-Threads(1)	2391 us || 4733 us || 3462 us || 2916 us || 2981 us || 3139 us || 3126 us || 3165 us || 3044 us || 3349 us || Max: 4733 || Min : 2391 us || Avg : 3230.0
-Threads(2)	8708 us || 8637 us || 6230 us || 6748 us || 5235 us || 6322 us || 7101 us || 5359 us || 6812 us || 6755 us || Max: 8708 || Min : 5235 us || Avg : 6790.0
-Threads(5)	6991 us || 7331 us || 7044 us || 9264 us || 9190 us || 9245 us || 9288 us || 9720 us || 9117 us || 10368 us || Max: 10368 || Min : 6991 us || Avg : 8755.0
-Threads(10)	11175 us || 8610 us || 8552 us || 8556 us || 8812 us || 8465 us || 8564 us || 8276 us || 8548 us || 8446 us || Max: 11175 || Min : 8276 us || Avg : 8800.0
-Threads(20)	8860 us || 9229 us || 8802 us || 9232 us || 9098 us || 9294 us || 8906 us || 9394 us || 10775 us || 9456 us || Max: 10775 || Min : 8802 us || Avg : 9304.0
-Threads(50)	10681 us || 10618 us || 11020 us || 10622 us || 10442 us || 12734 us || 10578 us || 10771 us || 10710 us || 10824 us || Max: 12734 || Min : 10442 us || Avg : 10900.0
-Threads(100)	13110 us || 12298 us || 12816 us || 12069 us || 10862 us || 10871 us || 11685 us || 11606 us || 12078 us || 10738 us || Max: 13110 || Min : 10738 us || Avg : 11813.0
-Threads(150)	33364 us || 15674 us || 15077 us || 15365 us || 15823 us || 16157 us || 16332 us || 16072 us || 16545 us || 15703 us || Max: 33364 || Min : 15077 us || Avg : 17611.0
-Min Time (2391)  || Threads(1)
-Min Avg (3230.0) || Threads(1)
+==============Vector Size(400000000)==============
+Threads(1)	8040117 us || Max: 8040117 || Min : 8040117 us || Avg : 8040117.0
+Threads(2)	3967325 us || Max: 3967325 || Min : 3967325 us || Avg : 3967325.0
+Threads(5)	1563078 us || Max: 1563078 || Min : 1563078 us || Avg : 1563078.0
+Threads(10)	798190 us || Max: 798190 || Min : 798190 us || Avg : 798190.0
+Threads(20)	401036 us || Max: 401036 || Min : 401036 us || Avg : 401036.0
+Threads(50)	161898 us || Max: 161898 || Min : 161898 us || Avg : 161898.0
+Threads(100)	86427 us || Max: 86427 || Min : 86427 us || Avg : 86427.0
+Threads(150)	64635 us || Max: 64635 || Min : 64635 us || Avg : 64635.0
+Min Time (64635)  || Threads(150)
+Min Avg (64635.0) || Threads(150)

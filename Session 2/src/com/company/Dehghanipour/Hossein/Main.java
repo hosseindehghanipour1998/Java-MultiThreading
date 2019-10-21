@@ -23,7 +23,6 @@ public class Main {
         long startTime = System.nanoTime();
         //Create a ThreadPool due to the number of wanted threads
         ThreadClass.createThreadPool(numberOfThreads);
-
         for ( ThreadClass p : ThreadClass.threadPool){
             p.start();
         }
@@ -110,14 +109,14 @@ public class Main {
     public static void main(String[] args) {
         IODevice.deletePredefinedFile(DEBUG_FILE);
         //Initializations
+        final int MILLION = 1000000 ;
         ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes = new ArrayList<>() ;
         int[] threadNumbers =  {1,2,5,10,20,50,100,150};
-        int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
-        //int[] vectorSizes = {100000000}; // What TA asked Us to do
-        //For vector size more that 100K , overflow will happen. You can add the number above if you want.
+        //int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
+        int[] vectorSizes = {400*MILLION}; //EXP
 
         ArrayList<Long> summations =  new ArrayList<>() ;
-        final int LOOP_COUNTER = 10 ;
+        final int LOOP_COUNTER = 1 ;
         long calculatedTime = 0 ;
         System.out.println("Let's do this ;) ");
         //CORE :

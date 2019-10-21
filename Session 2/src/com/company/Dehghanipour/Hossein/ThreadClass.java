@@ -71,13 +71,14 @@ public class ThreadClass extends Thread {
         int i = 0 ;
         for (whichIndex = id * chunk_size ; (whichIndex) < ( id + chunk_size ) && whichIndex < ARRAY_SIZE; whichIndex += 1 ) {
 
-            try{
-                sem.acquire();
+            try {
+                Thread.sleep(10);
                 ThreadClass.SUMMATION += HORIZONTAL_VECTOR[whichIndex] * VERTICAL_VECTOR[whichIndex] ;
-                sem.release();
-            }catch (Exception e){
-                sem.release();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
+
+
 
         }
     }
@@ -92,8 +93,5 @@ public class ThreadClass extends Thread {
         return builder.toString();
     }
 
-    public void showInfo(){
-        System.out.println(this.id);
-    }
 }
 

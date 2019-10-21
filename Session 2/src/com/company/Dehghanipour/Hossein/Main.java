@@ -110,10 +110,11 @@ public class Main {
         IODevice.deletePredefinedFile(DEBUG_FILE);
         //Initializations
         final int MILLION = 1000000 ;
+        final int THOUSAND = 1000 ;
         ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes = new ArrayList<>() ;
         int[] threadNumbers =  {1,2,5,10,20,50,100,150};
         //int[] vectorSizes = {100 , 1000 , 10000 , 100000 , 1000000}; // What TA asked Us to do
-        int[] vectorSizes = {400*MILLION}; //EXP
+        int[] vectorSizes = {2*THOUSAND}; //EXP
 
         ArrayList<Long> summations =  new ArrayList<>() ;
         final int LOOP_COUNTER = 1 ;
@@ -123,7 +124,7 @@ public class Main {
         for ( int matrixSize : vectorSizes){ // Vector
 
             ArrayList<ArrayList<Long>> eachTaskTimes = new ArrayList<>() ;
-            //Initialize the Vector with wanted lenghts
+            //Initialize the Vector with wanted lengths
             ThreadClass.ARRAY_SIZE = matrixSize ;
             ThreadClass.initializeArrays(matrixSize);
             //**Test**

@@ -1,11 +1,11 @@
-==============Vector Size(400000000)==============
-Threads(1)	8040117 us || Max: 8040117 || Min : 8040117 us || Avg : 8040117.0
-Threads(2)	3967325 us || Max: 3967325 || Min : 3967325 us || Avg : 3967325.0
-Threads(5)	1563078 us || Max: 1563078 || Min : 1563078 us || Avg : 1563078.0
-Threads(10)	798190 us || Max: 798190 || Min : 798190 us || Avg : 798190.0
-Threads(20)	401036 us || Max: 401036 || Min : 401036 us || Avg : 401036.0
-Threads(50)	161898 us || Max: 161898 || Min : 161898 us || Avg : 161898.0
-Threads(100)	86427 us || Max: 86427 || Min : 86427 us || Avg : 86427.0
-Threads(150)	64635 us || Max: 64635 || Min : 64635 us || Avg : 64635.0
-Min Time (64635)  || Threads(150)
-Min Avg (64635.0) || Threads(150)
+==============Vector Size(2000)==============
+Threads(1)	21171849 us || Max: 21171849 || Min : 21171849 us || Avg : 2.1171848E7
+Threads(2)	10551680 us || Max: 10551680 || Min : 10551680 us || Avg : 1.055168E7
+Threads(5)	4222019 us || Max: 4222019 || Min : 4222019 us || Avg : 4222019.0
+Threads(10)	2102081 us || Max: 2102081 || Min : 2102081 us || Avg : 2102081.0
+Threads(20)	1056174 us || Max: 1056174 || Min : 1056174 us || Avg : 1056174.0
+Threads(50)	424246 us || Max: 424246 || Min : 424246 us || Avg : 424246.0
+Threads(100)	210352 us || Max: 210352 || Min : 210352 us || Avg : 210352.0
+Threads(150)	145398 us || Max: 145398 || Min : 145398 us || Avg : 145398.0
+Min Time (145398)  || Threads(150)
+Min Avg (145398.0) || Threads(150)

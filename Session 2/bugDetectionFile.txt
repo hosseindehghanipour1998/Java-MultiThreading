@@ -7,7 +7,7 @@ STATUS : MATCH
 
 Initial Size : 1
 
-Summation Amount : 1600026384
+Summation Amount : 7791
 
 NUMBER_OF_THREADS (2)
 
@@ -15,13 +15,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 799965219
+SUMMATION AMOUNT : 3974
 
 Initial Size : 2
 
-Summation Amount : 799965219
+Summation Amount : 3974
 
 NUMBER_OF_THREADS (5)
 
@@ -29,13 +29,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 320011955
+SUMMATION AMOUNT : 1600
 
 Initial Size : 5
 
-Summation Amount : 320011955
+Summation Amount : 1600
 
 NUMBER_OF_THREADS (10)
 
@@ -43,13 +43,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 160014390
+SUMMATION AMOUNT : 864
 
 Initial Size : 10
 
-Summation Amount : 160014390
+Summation Amount : 864
 
 NUMBER_OF_THREADS (20)
 
@@ -57,13 +57,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 80011624
+SUMMATION AMOUNT : 418
 
 Initial Size : 20
 
-Summation Amount : 80011624
+Summation Amount : 418
 
 NUMBER_OF_THREADS (50)
 
@@ -71,13 +71,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 32006591
+SUMMATION AMOUNT : 162
 
 Initial Size : 50
 
-Summation Amount : 32006591
+Summation Amount : 162
 
 NUMBER_OF_THREADS (100)
 
@@ -85,13 +85,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 16001348
+SUMMATION AMOUNT : 91
 
 Initial Size : 100
 
-Summation Amount : 16001348
+Summation Amount : 91
 
 NUMBER_OF_THREADS (150)
 
@@ -99,13 +99,13 @@ LOOP_COUNTER (0)
 
 STATUS : ...................... < FAIL >..................... 
 
-REAL AMOUNT  : 1600026384
+REAL AMOUNT  : 7791
 
-SUMMATION AMOUNT : 10666927
+SUMMATION AMOUNT : 54
 
 Initial Size : 150
 
-Summation Amount : 10666927
+Summation Amount : 54
 
 =================================
 

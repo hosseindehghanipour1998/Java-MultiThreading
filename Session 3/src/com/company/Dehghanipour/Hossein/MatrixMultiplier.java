@@ -14,12 +14,12 @@ public class MatrixMultiplier extends Thread{
     private static int[][] resultMatrix ;
     private static ArrayList<MatrixMultiplier> threadPool = new ArrayList<>() ;
 
-    public static void setBasicInfo(int poolSize , int matrixSize){
+    private static void setBasicInfo(int poolSize , int matrixSize){
         THREAD_NUMBER = poolSize ;
         ARRAY_SIZE = matrixSize ;
     }
 
-    public static void initializeMatrices(){
+    private static void initializeMatrices(){
         mat1 = new int[ARRAY_SIZE][ARRAY_SIZE];
         mat2 = new int[ARRAY_SIZE][ARRAY_SIZE];
         resultMatrix = new int[ARRAY_SIZE][ARRAY_SIZE] ;
@@ -41,18 +41,18 @@ public class MatrixMultiplier extends Thread{
         }
     }
 
-    public static void createThreadPool(){
+    private static void createThreadPool(){
         for(int i = 0 ; i < THREAD_NUMBER ; i++){
             threadPool.add(new MatrixMultiplier(ID_COUNTER++));
         }
     }
 
-    public static void terminateThreadPool(){
+    private static void terminateThreadPool(){
         threadPool.clear();
         ID_COUNTER = 0 ;
     }
 
-    public static void terminateResultMatrix(){
+    private static void terminateResultMatrix(){
         for(int i = 0 ; i < ARRAY_SIZE ; i++){
             for(int j = 0 ; j < ARRAY_SIZE ; j++){
                 resultMatrix[i][j] = 0 ;
@@ -60,6 +60,16 @@ public class MatrixMultiplier extends Thread{
         }
     }
 
+    public static void warmUp(int poolSize , int arraySize){
+        MatrixMultiplier.setBasicInfo(poolSize,arraySize);
+        MatrixMultiplier.createThreadPool();
+        MatrixMultiplier.initializeMatrices();
+    }
+
+    public static void coolDown(){
+        MatrixMultiplier.terminateThreadPool();
+        MatrixMultiplier.terminateResultMatrix();
+    }
 
     @Override
     public void run() {

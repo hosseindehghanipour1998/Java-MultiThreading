@@ -28,6 +28,32 @@ public class ThreadTools  {
         return (totalTime/MILLION) ;
     }
 
+    public static long AdderThread(){
+
+        final int MILLION = 1000000;
+        final int THOUSAND = 1000 ;
+        long startTime = System.nanoTime();
+        //Create a ThreadPool due to the number of wanted threads
+
+        for ( Adder A : Adder.getThreadPool()){
+            A.start();
+        }
+        try {
+            for ( Adder A :Adder.getThreadPool()){
+                A.join();
+            }
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        long endTime = System.nanoTime();
+        long totalTime = endTime - startTime;
+        //Terminate Thread Pool.
+        Adder.frequencyKeeper[Adder.getSUMMATION()] += 1 ;
+        return (totalTime/MILLION) ;
+
+    }
+
     public static int findMinThreadIndex(ArrayList<Long> allMinimums){
         Long min = Collections.min(allMinimums) ;
         return allMinimums.indexOf(min);

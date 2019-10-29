@@ -67,7 +67,7 @@ public class IODevice {
 
 	}
 	
-	public static void writeFile ( String fileName , ArrayList<Long> calculatedTimes , int[] threadNumbers , int matrixSize) {
+	public static void writeFileMatrix(String fileName , ArrayList<Long> calculatedTimes , int[] threadNumbers , int matrixSize) {
 		// The name of the file to open.
 
         try {
@@ -75,9 +75,12 @@ public class IODevice {
             FileWriter fileWriter = new FileWriter(fileName);
             // Always wrap FileWriter in BufferedWriter.
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
             // Core Info.START
-			bufferedWriter.write( "Matrix Size : " + matrixSize + "*" + matrixSize );
-			bufferedWriter.write( "\n");
+			bufferedWriter.write("File Name : " + fileName);
+			bufferedWriter.write("\n" );
+            bufferedWriter.write( "Matrix Size : " + matrixSize + "*" + matrixSize );
+            bufferedWriter.write( "\n");
 			for (int i = 0 ; i < calculatedTimes.size() ; i++){
 				bufferedWriter.write("Thread(" + threadNumbers[i] + ") :\t -> \t" + calculatedTimes.get(i) );
 				bufferedWriter.write( "\n");

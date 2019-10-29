@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a451aa7-0c68-40f8-826a-80775220ed49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultiplierResults.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/IODevice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/MatrixMultiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/MatrixMultiplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,14 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitRepositories\7th Semester\OS Lab 2019\Session 3\src\com\company\Dehghanipour\Hossein" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,6 +63,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,5 +94,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -25,7 +25,7 @@ public class ThreadTools  {
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
         //Terminate Thread Pool.
-        return (totalTime/THOUSAND) ;
+        return (totalTime/MILLION) ;
     }
 
     public static int findMinThreadIndex(ArrayList<Long> allMinimums){
@@ -33,46 +33,16 @@ public class ThreadTools  {
         return allMinimums.indexOf(min);
     }
 
-    public static int findMinAvgTimeIndex(ArrayList<Float> allMinimums){
-        Float min = Collections.min(allMinimums) ;
-        return allMinimums.indexOf(min);
-    }
 
-    public static float calculateAverage(ArrayList<Long> caulculatedTimes ){
-        int sum = 0 ;
-        for ( Long time : caulculatedTimes) {
-            sum += time ;
+    public static void printTheTable( ArrayList<Long> times , int[] threads ){
+
+        for(int i = 0 ; i < threads.length ; i++){
+            System.out.println("Thread(" + threads[i]+") : "+ times.get(i));
         }
-        return (sum/caulculatedTimes.size());
-    }
+        int minIndex = findMinThreadIndex(times);
 
-    public static void printTheTable(ArrayList<ArrayList<ArrayList<Long>>> allThreadsTimes  , int[] threadNumbers , int[] arraySizes , ArrayList<Long> summations ){
-        int arrayIndex = 0 ;
-        int threadIndex = 0 ;
+        System.out.println("Min : " + times.get(minIndex) + " ns\t ->\t Thread(" + threads[minIndex]+")");
 
-        ArrayList<Long> allMinimumCalculatedTimes = new ArrayList<>() ;
-        ArrayList<Float> allAverageTimes = new ArrayList<>() ;
-        for (ArrayList<ArrayList<Long>> allThreadTime : allThreadsTimes){
-
-            System.out.println("================= (" + arraySizes[arrayIndex] +")=====================");
-            System.out.println("Summation : " + summations.get(arrayIndex++));
-            threadIndex = 0 ;
-            for ( ArrayList<Long> AL : allThreadTime ){
-                System.out.print("Threads (" + (threadNumbers[threadIndex++]) + "):\t\t") ;
-                for ( Long time : AL ){
-                    System.out.print(time + " us\t\t");
-                }
-                float avgTime = calculateAverage(AL);
-                allAverageTimes.add(avgTime) ;
-                System.out.print("Max: " + Collections.max(AL) + " us\t Min : " + Collections.min(AL) + " us\t Avg : " + avgTime);
-                allMinimumCalculatedTimes.add(Collections.min(AL)) ;
-                System.out.println("\n");
-            }
-            //Edit here -> Make it to show for each <vector>
-            //System.out.println("Min :\t" + Collections.min(allMinimumCalculatedTimes) + " ms | Number Of Threads :  ( " + threadNumbers[findMinThread(allMinimumCalculatedTimes)] +" )"  );
-            //System.out.println("Min Average:\t" + Collections.min(allAverageTimes)  + " ms | Number Of Threads :  ( " + threadNumbers[findMinAvgTime(allAverageTimes)] +" )"  );
-
-        }
     }
 
 }

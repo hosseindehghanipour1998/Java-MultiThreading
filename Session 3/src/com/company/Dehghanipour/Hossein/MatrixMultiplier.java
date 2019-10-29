@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class MatrixMultiplier extends Thread{
-    private static int ARRAY_SIZE = 0 ;
-    private static int THREAD_NUMBER = 0 ;
+    private static int ARRAY_SIZE ;
+    private static int THREAD_NUMBER ;
     private static int ID_COUNTER  = 0 ;
     private  int chunkSize , startIndex , endIndex , jumpAmount;
     private int id = 0 ;
-    private static int[][] mat1 = new int[ARRAY_SIZE][ARRAY_SIZE];
-    private static int[][] mat2 = new int[ARRAY_SIZE][ARRAY_SIZE];
-    private static int[][] resultMatrix = new int[ARRAY_SIZE][ARRAY_SIZE] ;
+    private static int[][] mat1 ;
+    private static int[][] mat2 ;
+    private static int[][] resultMatrix ;
     private static ArrayList<MatrixMultiplier> threadPool = new ArrayList<>() ;
 
     public static void setBasicInfo(int poolSize , int matrixSize){
@@ -20,8 +20,11 @@ public class MatrixMultiplier extends Thread{
     }
 
     public static void initializeMatrices(){
-        Random rnd = new Random() ;
+        mat1 = new int[ARRAY_SIZE][ARRAY_SIZE];
+        mat2 = new int[ARRAY_SIZE][ARRAY_SIZE];
+        resultMatrix = new int[ARRAY_SIZE][ARRAY_SIZE] ;
 
+        Random rnd = new Random() ;
         for (int i = 0 ; i < mat1.length ; i++){
             for(int j = 0 ; j < mat1.length ; j++){
                 mat1[i][j] = rnd.nextInt(5) + 1;
@@ -78,7 +81,7 @@ public class MatrixMultiplier extends Thread{
                 resultMatrix[whichRow][j] = 0 ;
                 for ( int k = 0 ; k < mat2[j].length ; k++){
                     //resultMatrix[whichRow][j] += StrictMath.sinh(mat1[whichRow][k]) * StrictMath.sinh(mat2[k][j]) ;
-                    //resultMatrix[whichRow][j] += mat1[whichRow][k] * mat2[k][j] ;
+                    resultMatrix[whichRow][j] += mat1[whichRow][k] * mat2[k][j] ;
                 }
             }
         }

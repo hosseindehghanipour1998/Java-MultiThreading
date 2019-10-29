@@ -17,12 +17,15 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-
+        final String FILE_NAME = "MultiplierResults.txt" ;
         int arraySize = 1000 ;
         int[] threadsNumbers = {1,2,5,10,20,50,100} ;
         ArrayList<Long> eachThreadTimes = new ArrayList<>() ;
 
         //Initializations
+        System.out.println("Program Started ...");
+        IODevice.deletePredefinedFile(FILE_NAME);
+        //Matrix Multiplier
             for(int threadNumber : threadsNumbers){
                 warmUp(threadNumber,arraySize);
                 //Place the core Here
@@ -31,5 +34,11 @@ public class Main {
                 //end of core
                 coolDown();
             }
+
+        //Adder
+
+        ThreadTools.printTheTable(eachThreadTimes,threadsNumbers);
+        IODevice.writeFile(FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
+        System.out.println("Program Finished ... ");
     }
 }

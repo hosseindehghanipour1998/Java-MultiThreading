@@ -1,0 +1,11 @@
+Matrix Size : 1000*1000
+Thread(1) :	 -> 	2833
+Thread(2) :	 -> 	1732
+Thread(5) :	 -> 	770
+Thread(10) :	 -> 	1343
+Thread(20) :	 -> 	1051
+Thread(50) :	 -> 	1119
+Thread(100) :	 -> 	1124
+
+===================== Result =====================
+Min : 770 ns	 ->	 Thread(5)

@@ -66,6 +66,23 @@ public class IODevice {
 		}
 
 	}
+
+	public static void writeFileAdder(String fileName , ArrayList<Integer> summations){
+
+		for(int i = 0 ; i < Adder.frequencyKeeper.length ; i++){
+			if(Adder.frequencyKeeper[i] != 0 ){
+				writePerLine("(" + i + ") -> " + Adder.frequencyKeeper[i] , fileName);
+			}
+		}
+
+		writePerLine("========= RECORDS ========" , fileName);
+
+		for(int i= 0 ; i < summations.size() ; i++ ){
+			writePerLine("Summation : " + summations.get(i) , fileName);
+		}
+
+
+	}
 	
 	public static void writeFileMatrix(String fileName , ArrayList<Long> calculatedTimes , int[] threadNumbers , int matrixSize) {
 		// The name of the file to open.

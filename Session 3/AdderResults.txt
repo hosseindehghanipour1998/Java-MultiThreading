@@ -1,0 +1,222 @@
+
+(988) -> 1
+
+(990) -> 1
+
+(993) -> 1
+
+(994) -> 1
+
+(995) -> 3
+
+(996) -> 3
+
+(997) -> 2
+
+(998) -> 8
+
+(999) -> 20
+
+(1000) -> 60
+
+========= RECORDS ========
+
+Summation : 998
+
+Summation : 999
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 995
+
+Summation : 990
+
+Summation : 995
+
+Summation : 994
+
+Summation : 1000
+
+Summation : 997
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 995
+
+Summation : 998
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 998
+
+Summation : 998
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 993
+
+Summation : 1000
+
+Summation : 988
+
+Summation : 996
+
+Summation : 1000
+
+Summation : 996
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 996
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 997
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000

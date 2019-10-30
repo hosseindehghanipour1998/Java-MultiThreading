@@ -1,5 +1,6 @@
 package com.company.Dehghanipour.Hossein;
 
+import java.sql.Array;
 import java.sql.SQLOutput;
 import java.util.ArrayList;
 
@@ -38,6 +39,7 @@ public class Main {
 
         //============================ ADDER =========================================
         //Adder
+        ArrayList<Integer> allSummations = new ArrayList<>();
         System.out.println("=========== Adder Part begins.===============");
         Adder.setBasicInfo(2,adderLoopCounter);
         Adder.initializeFrequencyKeeper();
@@ -47,17 +49,17 @@ public class Main {
             System.out.println("("+(i+1)+"):Summation : " + Adder.getSUMMATION());
             Adder.frequencyKeeper[Adder.getSUMMATION()] ++ ;
             eachThreadTimes.add(time);
+            allSummations.add(Adder.getSUMMATION());
             Adder.terminateThreadPool();
-
         }
         System.out.println("====== Results ======");
         ThreadTools.printAdderTable();
-        //IODevice.writeFileMatrix(ADDER_FILE_NAME,eachThreadTimes,threadsNumbers,0);
+        IODevice.writeFileAdder(ADDER_FILE_NAME,allSummations);
         eachThreadTimes.clear();
 
 
         //End of The Program
-
+        System.out.println("Written In File ... ");
         System.out.println("Program Finished ... ");
     }
 }

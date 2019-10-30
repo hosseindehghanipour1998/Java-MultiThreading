@@ -11,53 +11,50 @@ public class Adder extends Thread {
     private static ArrayList<Adder> threadPool = new ArrayList<>() ;
     public static int[] frequencyKeeper ;
     private static int freqArraySize = 0 ;
+    private static int loopCounter = 0 ;
 
 
-    public static void printArrayofSummations(){
-        for(int i = 0 ; i < freqArraySize ; i++){
-            if ( frequencyKeeper[i] != 0 ){
-                System.out.println("i : " + frequencyKeeper[i]);
-            }
-        }
-    }
-
-    private static void initializeThreadPool(int threadNumbers , int frequncyArraySize) {
-        NUMBER_OF_THREADS = threadNumbers ;
-        freqArraySize = frequncyArraySize ;
-        frequencyKeeper = new int[frequncyArraySize];
-        for(int i = 0 ; i < threadNumbers ; i++){
+    public static void initializeThreadPool() {
+        for(int i = 0 ; i < NUMBER_OF_THREADS ; i++){
             threadPool.add(new Adder(COUNTER_ID++));
         }
     }
 
-    private static void reset(){
-        SUMMATION = COUNTER_ID = NUMBER_OF_THREADS = 0 ;
+    public static void setBasicInfo(int threadNumbers , int loopCounter){
+        NUMBER_OF_THREADS = threadNumbers ;
+        freqArraySize = loopCounter*threadNumbers + 1 ;
+        Adder.loopCounter = loopCounter ;
+    }
+
+    private static void coolDown(){
+        SUMMATION = COUNTER_ID  = 0 ;
+    }
+
+
+    public static void initializeFrequencyKeeper(){
+        frequencyKeeper = new int[freqArraySize];
         for(int i = 0 ; i < freqArraySize ; i++){
             frequencyKeeper[i] = 0 ;
         }
+    }
+
+    public static void terminateThreadPool(){
+        coolDown();
         threadPool.clear();
     }
 
-    public static void warmUp(int poolSize , int arraySize){
-        initializeThreadPool(poolSize,poolSize*arraySize + 1);
-    }
-
-    public static void coolDown(){
-        reset();
-    }
 
 
     @Override
     public void run() {
         super.run();
-
         try {
-            for ( int i = 0 ; i < freqArraySize ; i++){
-                Thread.sleep(100);
+            for ( int i = 0 ; i <  Adder.loopCounter ; i++){
+               Thread.sleep(0,320);
                 SUMMATION++ ;
             }
 
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -73,5 +70,9 @@ public class Adder extends Thread {
 
     public static int getSUMMATION() {
         return SUMMATION;
+    }
+
+    public static void setSUMMATION(int SUMMATION) {
+        Adder.SUMMATION = SUMMATION;
     }
 }

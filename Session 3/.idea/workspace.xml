@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a451aa7-0c68-40f8-826a-80775220ed49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AdderResults.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiplierResults.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MultiplierResults.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/Adder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/IODevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/IODevice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/MatrixMultiplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/MatrixMultiplier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/ThreadTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 3/com/company/Dehghanipour/Hossein/ThreadTools.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/IODevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/IODevice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/MatrixMultiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/MatrixMultiplier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,6 +33,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

@@ -48,8 +48,6 @@ public class ThreadTools  {
 
         long endTime = System.nanoTime();
         long totalTime = endTime - startTime;
-        //Terminate Thread Pool.
-        Adder.frequencyKeeper[Adder.getSUMMATION()] += 1 ;
         return (totalTime/MILLION) ;
 
     }
@@ -60,7 +58,7 @@ public class ThreadTools  {
     }
 
 
-    public static void printTheTable( ArrayList<Long> times , int[] threads ){
+    public static void printTheMultiplierTable(ArrayList<Long> times , int[] threads ){
 
         for(int i = 0 ; i < threads.length ; i++){
             System.out.println("Thread(" + threads[i]+") : "+ times.get(i));
@@ -69,6 +67,14 @@ public class ThreadTools  {
 
         System.out.println("Min : " + times.get(minIndex) + " ns\t ->\t Thread(" + threads[minIndex]+")");
 
+    }
+
+    public static void printAdderTable(){
+        for(int i = 0 ; i < Adder.frequencyKeeper.length ; i++){
+            if(Adder.frequencyKeeper[i] != 0 ){
+                System.out.println("(" + i + ") -> " + Adder.frequencyKeeper[i]);
+            }
+        }
     }
 
 }

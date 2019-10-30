@@ -1,5 +1,6 @@
 package com.company.Dehghanipour.Hossein;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Main {
@@ -19,6 +20,7 @@ public class Main {
         System.out.println("Program Started ...");
         IODevice.deletePredefinedFile(MATRIX_FILE_NAME);
         IODevice.deletePredefinedFile(ADDER_FILE_NAME);
+        /*
         //============================ Matrix Multiplier =========================================
         for(int threadNumber : threadsNumbers){
             MatrixMultiplier.warmUp(threadNumber,arraySize);
@@ -32,19 +34,26 @@ public class Main {
         ThreadTools.printTheTable(eachThreadTimes,threadsNumbers);
         IODevice.writeFileMatrix(MATRIX_FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
         eachThreadTimes.clear();
+        */
+
         //============================ ADDER =========================================
         //Adder
         System.out.println("=========== Adder Part begins.===============");
+        Adder.setBasicInfo(2,adderLoopCounter);
+        Adder.initializeFrequencyKeeper();
         for ( int i = 0 ; i < 100 ; i++){
-            Adder.warmUp(2,adderLoopCounter);
+            Adder.initializeThreadPool();
             Long time = ThreadTools.AdderThread();
+            System.out.println("("+(i+1)+"):Summation : " + Adder.getSUMMATION());
+            Adder.frequencyKeeper[Adder.getSUMMATION()] ++ ;
             eachThreadTimes.add(time);
-            Adder.coolDown();
+            Adder.terminateThreadPool();
+
         }
-        ThreadTools.printTheTable(eachThreadTimes,threadsNumbers);
+        System.out.println("====== Results ======");
+        ThreadTools.printAdderTable();
         //IODevice.writeFileMatrix(ADDER_FILE_NAME,eachThreadTimes,threadsNumbers,0);
         eachThreadTimes.clear();
-        Adder.printArrayofSummations();
 
 
         //End of The Program

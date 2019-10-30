@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class MatrixMultiplier extends Thread{
+    public static Boolean sinh = false ;
     private static int ARRAY_SIZE ;
     private static int THREAD_NUMBER ;
     private static int ID_COUNTER  = 0 ;
@@ -90,8 +91,13 @@ public class MatrixMultiplier extends Thread{
             for ( int j = 0 ; j < mat1[whichRow].length ; j++){
                 resultMatrix[whichRow][j] = 0 ;
                 for ( int k = 0 ; k < mat2[j].length ; k++){
-                    //resultMatrix[whichRow][j] += StrictMath.sinh(mat1[whichRow][k]) * StrictMath.sinh(mat2[k][j]) ;
-                    resultMatrix[whichRow][j] += mat1[whichRow][k] * mat2[k][j] ;
+                    if(sinh == true){
+                        resultMatrix[whichRow][j] += StrictMath.sinh(mat1[whichRow][k]) * StrictMath.sinh(mat2[k][j]) ;
+                    }
+                    else{
+                        resultMatrix[whichRow][j] += mat1[whichRow][k] * mat2[k][j] ;
+                    }
+
                 }
             }
         }

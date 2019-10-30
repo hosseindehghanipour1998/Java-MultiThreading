@@ -77,4 +77,16 @@ public class ThreadTools  {
         }
     }
 
+    public static void matrixFileWriter(Boolean sinh , ArrayList<Long> eachThreadTimes , int[] threadsNumbers , int arraySize){
+        if ( sinh == true){
+            IODevice.deletePredefinedFile(Main.HYPERBOLIC_MATRIX_FILE_NAME);
+            IODevice.writeFileMatrix(Main.HYPERBOLIC_MATRIX_FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
+        }
+        else {
+            IODevice.deletePredefinedFile(Main.NORMAL_MATRIX_FILE_NAME);
+            IODevice.writeFileMatrix(Main.NORMAL_MATRIX_FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
+
+        }
+    }
+
 }

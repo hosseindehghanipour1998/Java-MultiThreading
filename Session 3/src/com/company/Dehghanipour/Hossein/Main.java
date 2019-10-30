@@ -5,14 +5,14 @@ import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Main {
-
+    public static final String NORMAL_MATRIX_FILE_NAME = "NormalMultiplierResults.txt" ;
+    public static final String HYPERBOLIC_MATRIX_FILE_NAME = "HyperbolicMultiplierResults.txt" ;
+    public static final String ADDER_FILE_NAME = "AdderResults.txt" ;
 
 
     public static void main(String[] args) {
 	// write your code here
-        final String NORMAL_MATRIX_FILE_NAME = "NormalMultiplierResults.txt" ;
-        final String HYPERBOLIC_MATRIX_FILE_NAME = "HyperbolicMultiplierResults.txt" ;
-        final String ADDER_FILE_NAME = "AdderResults.txt" ;
+
         int arraySize = 1000 ;
         int[] threadsNumbers = {1,2,5,10,20,50,100} ;
         ArrayList<Long> eachThreadTimes = new ArrayList<>() ;
@@ -21,23 +21,25 @@ public class Main {
         //Initializations
         System.out.println("Program Started ...");
 
-
-
         //============================ Matrix Multiplier =========================================
-        IODevice.deletePredefinedFile(NORMAL_MATRIX_FILE_NAME);
-        //IODevice.deletePredefinedFile(HYPERBOLIC_MATRIX_FILE_NAME);
-        for(int threadNumber : threadsNumbers){
-            MatrixMultiplier.warmUp(threadNumber,arraySize);
-            //Place the core Here
-            long spentTime = ThreadTools.multiplicationThread();
-            eachThreadTimes.add(spentTime);
-            //end of core
-            MatrixMultiplier.coolDown();
+        for ( int i = 0 ; i < 2 ; i++){//Once for Normal Multiplication and Once for sinh(x) form.
+            System.out.println("Sinh(x) Enabled ? : " + MatrixMultiplier.sinh.toString().toUpperCase());
+            for(int threadNumber : threadsNumbers){//testing with different number of threads.
+                MatrixMultiplier.warmUp(threadNumber,arraySize);
+                //Place the core Here
+                long spentTime = ThreadTools.multiplicationThread();
+                eachThreadTimes.add(spentTime);
+                //end of core
+                MatrixMultiplier.coolDown();
+            }
+
+            ThreadTools.printTheMultiplierTable(eachThreadTimes,threadsNumbers);
+            ThreadTools.matrixFileWriter(MatrixMultiplier.sinh , eachThreadTimes , threadsNumbers , arraySize);
+            eachThreadTimes.clear();
+            MatrixMultiplier.sinh = true ;//now it's time to calculate sinh(x) form.
+            System.out.println("==================");
         }
 
-        ThreadTools.printTheMultiplierTable(eachThreadTimes,threadsNumbers);
-        IODevice.writeFileMatrix(NORMAL_MATRIX_FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
-        eachThreadTimes.clear();
 
 
         //============================ ADDER =========================================

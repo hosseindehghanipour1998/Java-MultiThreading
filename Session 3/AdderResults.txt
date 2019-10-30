@@ -1,10 +1,162 @@
 
-(999) -> 6
+(984) -> 1
 
-(1000) -> 94
+(986) -> 1
+
+(992) -> 1
+
+(994) -> 1
+
+(996) -> 2
+
+(997) -> 14
+
+(998) -> 12
+
+(999) -> 25
+
+(1000) -> 43
 
 ========= RECORDS ========
 
+Summation : 997
+
+Summation : 997
+
+Summation : 999
+
+Summation : 997
+
+Summation : 998
+
+Summation : 999
+
+Summation : 999
+
+Summation : 997
+
+Summation : 998
+
+Summation : 999
+
+Summation : 999
+
+Summation : 996
+
+Summation : 997
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 999
+
+Summation : 999
+
+Summation : 994
+
+Summation : 999
+
+Summation : 997
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 999
+
+Summation : 997
+
+Summation : 1000
+
+Summation : 997
+
+Summation : 999
+
+Summation : 999
+
+Summation : 998
+
+Summation : 998
+
+Summation : 997
+
+Summation : 998
+
+Summation : 998
+
+Summation : 998
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 997
+
+Summation : 999
+
+Summation : 998
+
+Summation : 997
+
+Summation : 1000
+
+Summation : 999
+
+Summation : 999
+
+Summation : 997
+
+Summation : 997
+
+Summation : 984
+
+Summation : 986
+
+Summation : 992
+
+Summation : 998
+
+Summation : 999
+
+Summation : 999
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 998
+
+Summation : 1000
+
+Summation : 1000
+
+Summation : 999
+
 Summation : 1000
 
 Summation : 1000
@@ -23,16 +175,6 @@ Summation : 999
 
 Summation : 1000
 
-Summation : 999
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
 Summation : 1000
 
 Summation : 1000
@@ -45,35 +187,11 @@ Summation : 1000
 
 Summation : 1000
 
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
+Summation : 999
 
 Summation : 999
 
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
+Summation : 997
 
 Summation : 1000
 
@@ -87,111 +205,7 @@ Summation : 999
 
 Summation : 1000
 
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
-
-Summation : 1000
+Summation : 996
 
 Summation : 1000
 

@@ -10,7 +10,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        final String MATRIX_FILE_NAME = "MultiplierResults.txt" ;
+        final String NORMAL_MATRIX_FILE_NAME = "NormalMultiplierResults.txt" ;
+        final String HYPERBOLIC_MATRIX_FILE_NAME = "HyperbolicMultiplierResults.txt" ;
         final String ADDER_FILE_NAME = "AdderResults.txt" ;
         int arraySize = 1000 ;
         int[] threadsNumbers = {1,2,5,10,20,50,100} ;
@@ -19,10 +20,12 @@ public class Main {
 
         //Initializations
         System.out.println("Program Started ...");
-        IODevice.deletePredefinedFile(MATRIX_FILE_NAME);
-        IODevice.deletePredefinedFile(ADDER_FILE_NAME);
-        /*
+
+
+
         //============================ Matrix Multiplier =========================================
+        IODevice.deletePredefinedFile(NORMAL_MATRIX_FILE_NAME);
+        //IODevice.deletePredefinedFile(HYPERBOLIC_MATRIX_FILE_NAME);
         for(int threadNumber : threadsNumbers){
             MatrixMultiplier.warmUp(threadNumber,arraySize);
             //Place the core Here
@@ -32,13 +35,14 @@ public class Main {
             MatrixMultiplier.coolDown();
         }
 
-        ThreadTools.printTheTable(eachThreadTimes,threadsNumbers);
-        IODevice.writeFileMatrix(MATRIX_FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
+        ThreadTools.printTheMultiplierTable(eachThreadTimes,threadsNumbers);
+        IODevice.writeFileMatrix(NORMAL_MATRIX_FILE_NAME,eachThreadTimes,threadsNumbers,arraySize);
         eachThreadTimes.clear();
-        */
+
 
         //============================ ADDER =========================================
         //Adder
+        IODevice.deletePredefinedFile(ADDER_FILE_NAME);
         ArrayList<Integer> allSummations = new ArrayList<>();
         System.out.println("=========== Adder Part begins.===============");
         Adder.setBasicInfo(2,adderLoopCounter);

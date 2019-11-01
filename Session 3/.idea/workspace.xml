@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a451aa7-0c68-40f8-826a-80775220ed49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/~$ssion 3 Report.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/MatrixMultiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/MatrixMultiplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MultiplierResults.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Session 3 Report.docx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

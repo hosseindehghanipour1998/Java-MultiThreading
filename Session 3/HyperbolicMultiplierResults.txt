@@ -1,0 +1,12 @@
+File Name : HyperbolicMultiplierResults.txt
+Matrix Size : 1000*1000
+Thread(1) :	 -> 	212574
+Thread(2) :	 -> 	104243
+Thread(5) :	 -> 	43226
+Thread(10) :	 -> 	30273
+Thread(20) :	 -> 	28845
+Thread(50) :	 -> 	28440
+Thread(100) :	 -> 	29225
+
+===================== Result =====================
+Min : 28440 ns	 ->	 Thread(50)

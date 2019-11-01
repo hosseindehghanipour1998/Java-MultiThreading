@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9795f2d-e3ad-461a-a3e3-305c0b935a3c" name="Default Changelist" comment="" />
+    <list default="true" id="1a451aa7-0c68-40f8-826a-80775220ed49" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,28 +14,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="G:\GitRepositories\7th Semester\OS Lab 2019\Session 3\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1SYz6CKs6V4mfoWPSVQ4Scax5LW" />
+  <component name="ProjectId" id="1SseniYkft8UxgxseCOE0i9gzPR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\GitRepositories\7th Semester\OS Lab 2019\Session 3\src\com\company\Dehghanipour\Hossein" />
     </key>
   </component>
@@ -71,11 +70,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c9795f2d-e3ad-461a-a3e3-305c0b935a3c" name="Default Changelist" comment="" />
-      <created>1571755139193</created>
+      <changelist id="1a451aa7-0c68-40f8-826a-80775220ed49" name="Default Changelist" comment="" />
+      <created>1572356898927</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571755139193</updated>
+      <updated>1572356898927</updated>
     </task>
     <servers />
   </component>

@@ -1,0 +1,12 @@
+File Name : NormalMultiplierResults.txt
+Matrix Size : 1000*1000
+Thread(1) :	 -> 	2998
+Thread(2) :	 -> 	1711
+Thread(5) :	 -> 	815
+Thread(10) :	 -> 	1106
+Thread(20) :	 -> 	1039
+Thread(50) :	 -> 	1095
+Thread(100) :	 -> 	1128
+
+===================== Result =====================
+Min : 815 ns	 ->	 Thread(5)

@@ -19,4 +19,4 @@ Semaphore and locking on a variable was not our main concern here and that's why
 
 
 # Session 2
-In this session we were told to multiply two vectors ( 1*n & n*1 ) and calculate their summation. As you can see, there are some faults made by not locking on the varibale which is the same for all threads. The main goal of this task was to see how the size of the vectors effect on the overall time of the program. As we can see, the bigger the vectors are the more devastating out overall time gets. As we can also see is that the ideal number of threads change due to the size of the vectors.
+In this session we were told to multiply two vectors ( 1xN & Nx1 ) and calculate their summation. As you can see, there are some faults made by not locking on the varibale which is the same for all threads. The main goal of this task was to see how the size of the vectors effect on the overall time of the program. As we can see, the bigger the vectors are the more devastating out overall time gets. As we can also see is that the ideal number of threads change due to the size of the vectors.

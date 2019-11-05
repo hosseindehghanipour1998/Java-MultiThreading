@@ -20,3 +20,14 @@ Semaphore and locking on a variable was not our main concern here and that's why
 
 # Session 2
 In this session we were told to multiply two vectors ( 1xN & Nx1 ) and calculate their summation. As you can see, there are some faults made by not locking on the varibale which is the same for all threads. The main goal of this task was to see how the size of the vectors effect on the overall time of the program. As we can see, the bigger the vectors are the more devastating out overall time gets. As we can also see is that the ideal number of threads change due to the size of the vectors.
+
+
+# Session 4
+In this session we were asked to do 3 Tasks :
+
+1 - extend the code of previous session ; by simply extending the integer array to 1 Million indices and decreasing the number of threads by 2 threads and removing the function "Thread.Sleep()" from the "Adder" class.
+
+2 - Put a locker on the overlapping variable " Adder.Summation " and call the locker.lock() and locker.unlock() before and after the " Summation++ " respectively. Now compare the resulting times with each other.( use "ReentrantLock" class for the locker)
+
+3 - Now by using 2 semaphores - producerSemaphore and consumerSemaphore - and s Stack, write a program that has 5 threads of each class "Adder and Consumer " and seamphores with " permit = 3 " and you should also use "locker" to lock on the stack. Run the program for 10 times and each time the producer semaphores must push a random number into the stack and the consumer semaphores must pop a number from the stack. After pushing or popping, the program shall print the id and amount pushed/popped to/from the stack.
+

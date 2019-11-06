@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93aef76d-74f7-4de7-871c-f42a0b5d893c" name="Default Changelist" comment="" />
+    <list default="true" id="93aef76d-74f7-4de7-871c-f42a0b5d893c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +19,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1TDGtj3mbP5pWEAB4NqgBkXyztE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\GitRepositories\7th Semester\OS Lab 2019\Session 4\src\com\company\Dehghanipour\Hossein" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,6 +54,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,7 +78,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

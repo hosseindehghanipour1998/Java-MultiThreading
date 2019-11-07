@@ -11,22 +11,15 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
+    public static int loopCounter = 10 ;
+    public static ReentrantLock locker = new ReentrantLock() ;
+    //============ PART II Vars ============================
     public static Semaphore producerSemaphore = new Semaphore(4) ;
     public static Semaphore consumerSemaphore = new Semaphore(0) ;
-    public static ReentrantLock locker = new ReentrantLock() ;
     public static int stackSize = 3 ;
     public static Stack bowls = new Stack();
-    public static int loopCounter = 10 ;
-/*
-    public static float calcualteAvg(ArrayList<Long> times){
-        int sum = 0 ;
-        for(int i = 0 ; i < times.size() ; i++){
-            sum += times.get(i);
-        }
-        return (sum/times.size());
-    }
+    private int adderLoopCounter = 1 ;
 
- */
 
     public static void main(String[] args) {
         // write your code here
@@ -40,12 +33,12 @@ public class Main {
         System.out.println("Program Started ...");
 */
 
-/*
+
 
         //============================ ADDER =========================================
-        //Adder
-        IODevice.deletePredefinedFile(ADDER_FILE_NAME);
+
         ArrayList<Integer> allSummations = new ArrayList<>();
+        ArrayList<Long> eachThreadTimes = new ArrayList<>() ;
         System.out.println("=========== Adder Part begins.===============");
         Adder.setBasicInfo(2,adderLoopCounter);
         Adder.initializeFrequencyKeeper();
@@ -59,21 +52,18 @@ public class Main {
             Adder.terminateThreadPool();
         }
         System.out.println("====== Results ======");
-        //ThreadTools.printAdderTable();
-        //IODevice.writeFileAdder(ADDER_FILE_NAME,allSummations);
-        System.out.println(calcualteAvg((eachThreadTimes)));
+
         eachThreadTimes.clear();
 
 
         //End of The Program
         System.out.println("Written In File ... ");
         System.out.println("Program Finished ... ");
-         */
 
+// ==================== CONSUMER & PRODUCER ==============================
 
         int consumerNumbers = 5 ;
         int producerNumbers = 5 ;
-        int stackCapacity = 3 ;
 
         Consumer.createThreadPool(consumerNumbers);
         Producer.createThreadPool(producerNumbers);

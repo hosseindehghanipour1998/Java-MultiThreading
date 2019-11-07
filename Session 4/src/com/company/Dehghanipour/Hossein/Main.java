@@ -11,9 +11,10 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
-    public static Semaphore producerSemaphore = new Semaphore(3) ;
+    public static Semaphore producerSemaphore = new Semaphore(4) ;
     public static Semaphore consumerSemaphore = new Semaphore(0) ;
     public static ReentrantLock locker = new ReentrantLock() ;
+    public static int stackSize = 3 ;
     public static Stack bowls = new Stack();
     public static int loopCounter = 10 ;
 /*

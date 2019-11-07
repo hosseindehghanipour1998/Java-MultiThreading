@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93aef76d-74f7-4de7-871c-f42a0b5d893c" name="Default Changelist" comment="" />
+    <list default="true" id="93aef76d-74f7-4de7-871c-f42a0b5d893c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Session 4/com/company/Dehghanipour/Hossein/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 4/com/company/Dehghanipour/Hossein/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Session 4/com/company/Dehghanipour/Hossein/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 4/com/company/Dehghanipour/Hossein/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Session 4/com/company/Dehghanipour/Hossein/ThreadTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Session 4/com/company/Dehghanipour/Hossein/ThreadTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dehghanipour/Hossein/ThreadTools.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />

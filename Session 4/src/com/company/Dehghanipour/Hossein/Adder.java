@@ -5,44 +5,28 @@ import java.util.ArrayList;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Adder extends Thread {
-    private static int COUNTER_ID = 0 ;
-    private static int NUMBER_OF_THREADS ;
+    private static int idCounter = 0 ;
+    private static int NUMBER_OF_THREADS = 0 ;
     private static int SUMMATION = 0 ;
+    private static int loopCounter = 500 ;
     private int id = 0 ;
     private static ArrayList<Adder> threadPool = new ArrayList<>() ;
-    public static int[] frequencyKeeper ;
-    private static int freqArraySize = 0 ;
-    private static int loopCounter = 0 ;
 
 
-    public static void initializeThreadPool() {
+
+    public static void initializeThreadPool(int threadPoolSize) {
+        NUMBER_OF_THREADS = threadPoolSize ;
         for(int i = 0 ; i < NUMBER_OF_THREADS ; i++){
-            threadPool.add(new Adder(COUNTER_ID++));
-        }
-    }
-
-    public static void setBasicInfo(int threadNumbers , int loopCounter){
-        NUMBER_OF_THREADS = threadNumbers ;
-        freqArraySize = loopCounter*threadNumbers + 1 ;
-        Adder.loopCounter = loopCounter ;
-    }
-
-    private static void coolDown(){
-        SUMMATION = COUNTER_ID  = 0 ;
-    }
-
-
-    public static void initializeFrequencyKeeper(){
-        frequencyKeeper = new int[freqArraySize];
-        for(int i = 0 ; i < freqArraySize ; i++){
-            frequencyKeeper[i] = 0 ;
+            threadPool.add(new Adder(idCounter++));
         }
     }
 
     public static void terminateThreadPool(){
-        coolDown();
         threadPool.clear();
+        SUMMATION = 0 ;
+        idCounter = 0 ;
     }
+
 
 
 
@@ -50,7 +34,7 @@ public class Adder extends Thread {
     public void run() {
         super.run();
         try {
-            for ( int i = 0 ; i <  Adder.loopCounter ; i++){
+            for ( int i = 0 ; i < loopCounter ; i++){
                 Main.locker.lock();
                 SUMMATION++ ;
                 Main.locker.unlock();

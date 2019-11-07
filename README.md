@@ -25,9 +25,15 @@ In this session we were told to multiply two vectors ( 1xN & Nx1 ) and calculate
 # Session 4
 In this session we were asked to do 3 Tasks :
 
+
+ Part I :
+
 1 - extend the code of previous session ; by simply extending the integer array to 1 Million indices and decreasing the number of threads by 2 threads and removing the function "Thread.Sleep()" from the "Adder" class.
 
 2 - Put a locker on the overlapping variable " Adder.Summation " and call the locker.lock() and locker.unlock() before and after the " Summation++ " respectively. Now compare the resulting times with each other.( use "ReentrantLock" class for the locker)
 
-3 - Now by using 2 semaphores - producerSemaphore and consumerSemaphore - and s Stack, write a program that has 5 threads of each class "Adder and Consumer " and seamphores with " permit = 3 " and you should also use "locker" to lock on the stack. Run the program for 10 times and each time the producer semaphores must push a random number into the stack and the consumer semaphores must pop a number from the stack. After pushing or popping, the program shall print the id and amount pushed/popped to/from the stack.
+
+Part II : 
+
+1 - Now by using 2 semaphores - producerSemaphore and consumerSemaphore - and s Stack, write a program that has 5 threads of each class "Adder and Consumer " and seamphores with " permit = 3 " and you should also use "locker" to lock on the stack. Run the program for 10 times and each time the producer semaphores must push a random number into the stack and the consumer semaphores must pop a number from the stack. After pushing or popping, the program shall print the id and amount pushed/popped to/from the stack.
 

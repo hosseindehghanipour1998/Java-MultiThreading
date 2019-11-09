@@ -28,9 +28,10 @@ In this session we were asked to do 3 Tasks :
 
  Part I :
 
-1 - extend the code of previous session ; by simply extending the integer array to 1 Million indices and decreasing the number of threads by 2 threads and removing the function "Thread.Sleep()" from the "Adder" class.
+1 - extend the code of previous session ; by simply extending the Adder's inside loop counter from 500  to 1 Million repeats and decreasing the number of threads by {1,2} threads and removing the function "Thread.Sleep()" from the "Adder" class.Compare the average time for 1 thread with 2 threads and write it down in the report file.
 
-2 - Put a locker on the overlapping variable " Adder.Summation " and call the locker.lock() and locker.unlock() before and after the " Summation++ " respectively. Now compare the resulting times with each other.( use "ReentrantLock" class for the locker)
+
+2 - Put a locker on the overlapping variable " Adder.Summation " and call the locker.lock() and locker.unlock() before and after the " Summation++ " respectively and run the code with only 2 threads.Now compare the resulting time with part 1.( use "ReentrantLock" class for the locker)
 
 
 Part II : 

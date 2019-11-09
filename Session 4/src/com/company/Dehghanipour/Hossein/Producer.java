@@ -39,6 +39,7 @@ public class Producer extends Thread {
                 Main.locker.unlock();
                 System.out.println("ID : " + this.id + " | PUSHED : " + food) ;
                 Main.consumerSemaphore.release();
+
             }
             else {
                 return ;

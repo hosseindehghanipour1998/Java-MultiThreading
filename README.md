@@ -25,7 +25,6 @@ In this session we were told to multiply two vectors ( 1xN & Nx1 ) and calculate
 # Session 4
 In this session we were asked to do 3 Tasks :
 
-
  Part I :
 
 1 - extend the code of previous session ; by simply extending the Adder's inside loop counter from 500  to 1 Million repeats and decreasing the number of threads by {1,2} threads and removing the function "Thread.Sleep()" from the "Adder" class.Compare the average time for 1 thread with 2 threads and write it down in the report file.

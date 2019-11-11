@@ -31,6 +31,7 @@ public class Producer extends Thread {
                 Main.bowls.push(food);
                 Main.locker.unlock();
                 System.out.println("ID : " + this.id + " | PUSHED : " + food) ;
+                IODevice.writePerLine(Main.FILE_NAME , "ID : " + this.id + " | PUSHED : " + food);
                 Main.consumerSemaphore.release();
             }
         }catch (Exception e){

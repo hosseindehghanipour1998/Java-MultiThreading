@@ -32,6 +32,7 @@ public class AdderNoLock extends Thread {
         for(int i = 0 ; i < frequencyMonitor.length ; i++){
             if(frequencyMonitor[i] != 0){
                 System.out.println("Index  (" + i +") : " +   frequencyMonitor[i]);
+                IODevice.writePerLine(Main.FILE_NAME , "Index  (" + i +") : " +   frequencyMonitor[i]);
             }
         }
     }

@@ -15,13 +15,14 @@ public class ThreadTools  {
     }
 
     public static void runThreads(){
-
+        // Here I assumed the number of producers and consumers are equal.
         for (int i = 0 ; i < Main.producerNumbers ; i++ ){
             Consumer.threadPool.get(i).start();
             Producer.threadPool.get(i).start();
         }
 
         try {
+            // Here I assumed the number of producers and consumers are equal.
             for ( int i = 0 ; i < Main.producerNumbers ; i++ ){
                 Consumer.threadPool.get(i).join();
                 Producer.threadPool.get(i).join();
@@ -74,4 +75,6 @@ public class ThreadTools  {
         return (totalTime/THOUSAND) ;
 
     }
+
+
 }

@@ -29,6 +29,7 @@ public class Consumer extends Thread {
                 Main.locker.lock();
                 int food = (int) Main.bowls.pop();
                 System.out.println("ID : " + this.id + " |  POPPED : " + food) ;
+                IODevice.writePerLine(Main.FILE_NAME , "ID : " + this.id + " |  POPPED : " + food);
                 Main.locker.unlock();
                 Main.producerSemaphore.release();
             }

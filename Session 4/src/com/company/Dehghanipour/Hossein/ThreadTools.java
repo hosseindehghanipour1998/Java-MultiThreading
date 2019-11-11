@@ -13,47 +13,25 @@ public class ThreadTools  {
         }
         return ( sum / times.size());
     }
-    public static long producerRun(){
-        long startTime = System.nanoTime();
-        //Create a ThreadPool due to the number of wanted threads
 
-        for ( Producer mp : Producer.threadPool){
-            mp.start();
+    public static void runThreads(){
+
+        for (int i = 0 ; i < Main.producerNumbers ; i++ ){
+            Consumer.threadPool.get(i).start();
+            Producer.threadPool.get(i).start();
         }
+
         try {
-            for ( Producer mp :Producer.threadPool ){
-                mp.join();
+            for ( int i = 0 ; i < Main.producerNumbers ; i++ ){
+                Consumer.threadPool.get(i).join();
+                Producer.threadPool.get(i).join();
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        long endTime = System.nanoTime();
-        long totalTime = endTime - startTime;
-        return (totalTime/MILLION) ;
-
     }
-    public static long consumerRun(){
-        final int MILLION = 1000000;
-        final int THOUSAND = 1000 ;
-        long startTime = System.nanoTime();
-        //Create a ThreadPool due to the number of wanted threads
 
-        for ( Consumer mp : Consumer.threadPool){
-            mp.start();
-        }
-        try {
-            for ( Consumer mp :Consumer.threadPool ){
-                mp.join();
-            }
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        long endTime = System.nanoTime();
-        long totalTime = endTime - startTime;
-        return (totalTime/MILLION) ;
-    }
 
     public static long AdderNoLockThread(){
         long startTime = System.nanoTime();

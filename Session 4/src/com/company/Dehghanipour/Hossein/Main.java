@@ -7,12 +7,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
     //==============CONTROL PANEL ==========================
-    private static final int producerSemaphorePermits = 4 ;
+    private static final int producerSemaphorePermits = 3 ;
     private static final int consumerSemaphorePermits = 0 ;
     public static int stackSize = 3 ;
     public static final int consumer_producerLoopCounter = 10 ;
     private static final int consumerNumbers = 5 ;
-    private static final int producerNumbers = 5 ;
+    public static final int producerNumbers = 5 ;
 
     public static final int adderLoopCounter = 10 ;
     private static  int numberOfAdderThreads ;
@@ -81,10 +81,11 @@ public class Main {
         Consumer.createThreadPool(consumerNumbers);
         Producer.createThreadPool(producerNumbers);
 
-        ThreadTools.producerRun();
-        System.out.println("Producer Produced !");
-        ThreadTools.consumerRun();
-        System.out.println("Consumer Consumed !");
+        //ThreadTools.producerRun();
+        //System.out.println("Producer Produced !");
+        //ThreadTools.consumerRun();
+        //System.out.println("Consumer Consumed !");
+        ThreadTools.runThreads();
 
     }
 

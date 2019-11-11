@@ -24,20 +24,14 @@ public class Consumer extends Thread {
     public void run() {
         super.run();
         try {
-           // for ( int i = 0 ; i < Main.loopCounter ; i++){
-            Main.locker.lock();
-            Main.stackSize ++ ;
-            Main.locker.unlock();
-            if(Main.stackSize <= 3 ){
+            for ( int i = 0 ; i < Main.consumer_producerLoopCounter ; i++){
                 Main.consumerSemaphore.acquire();
                 Main.locker.lock();
                 int food = (int) Main.bowls.pop();
-                System.out.println("ID : " + this.id + " POPPED : " + food) ;
+                System.out.println("ID : " + this.id + " |  POPPED : " + food) ;
                 Main.locker.unlock();
                 Main.producerSemaphore.release();
             }
-
-            //}
         }catch (Exception e){
             e.printStackTrace();
         }

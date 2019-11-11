@@ -24,31 +24,15 @@ public class Producer extends Thread {
     public void run() {
         super.run();
         try {
-           // for(int i = 0 ; i < Main.loopCounter ; i++){
-            //int food = (int)(ThreadLocalRandom.current().nextInt()) ;
-            Random rnd = new Random() ;
-            int food = rnd.nextInt(5) + 1 ;
-            Main.locker.lock();
-            Main.stackSize-- ;
-            Main.locker.unlock();
-            if( Main.stackSize >= 0 ){
-                System.out.println("In Thread : " + id + " | Stack Size : " + Main.stackSize);
+            for(int i = 0 ; i < Main.consumer_producerLoopCounter ; i++){
+                int food = (int)(ThreadLocalRandom.current().nextInt()) ;
                 Main.producerSemaphore.acquire();
                 Main.locker.lock();
                 Main.bowls.push(food);
                 Main.locker.unlock();
                 System.out.println("ID : " + this.id + " | PUSHED : " + food) ;
                 Main.consumerSemaphore.release();
-
             }
-            else {
-                return ;
-            }
-
-            //}
-
-
-
         }catch (Exception e){
             e.printStackTrace();
 

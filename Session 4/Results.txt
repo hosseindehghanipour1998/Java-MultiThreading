@@ -300,3 +300,317 @@ ID : 1 | PUSHED : 2132862822
 ID : 4 |  POPPED : 2132862822
 
 ID : 3 |  POPPED : 42113253
+
+Running for #Threads(1)
+
+=========== Adder Without LOCK begins.===============
+
+(1):Summation : 1000000   Time : 15814
+
+(2):Summation : 1000000   Time : 2319
+
+(3):Summation : 1000000   Time : 481
+
+(4):Summation : 1000000   Time : 289
+
+(5):Summation : 1000000   Time : 300
+
+(6):Summation : 1000000   Time : 349
+
+(7):Summation : 1000000   Time : 307
+
+(8):Summation : 1000000   Time : 360
+
+(9):Summation : 1000000   Time : 321
+
+(10):Summation : 1000000   Time : 328
+
+====== Results ======
+
+Average Time : 2086.0
+
+Index  (1000000) : 10
+
+***
+
+Running for #Threads(2)
+
+=========== Adder Without LOCK begins.===============
+
+(1):Summation : 1682881   Time : 461
+
+(2):Summation : 1103057   Time : 562
+
+(3):Summation : 1000000   Time : 428
+
+(4):Summation : 1423648   Time : 506
+
+(5):Summation : 1978465   Time : 383
+
+(6):Summation : 1497393   Time : 415
+
+(7):Summation : 2000000   Time : 362
+
+(8):Summation : 1638081   Time : 380
+
+(9):Summation : 1360433   Time : 477
+
+(10):Summation : 1574128   Time : 401
+
+====== Results ======
+
+Average Time : 437.0
+
+Index  (1000000) : 1
+
+Index  (1103057) : 1
+
+Index  (1360433) : 1
+
+Index  (1423648) : 1
+
+Index  (1497393) : 1
+
+Index  (1574128) : 1
+
+Index  (1638081) : 1
+
+Index  (1682881) : 1
+
+Index  (1978465) : 1
+
+Index  (2000000) : 1
+
+***
+
+=========== Adder With LOCK begins.===============
+
+(1):Summation : 2000000   Time : 115478
+
+(2):Summation : 2000000   Time : 84448
+
+(3):Summation : 2000000   Time : 76376
+
+(4):Summation : 2000000   Time : 68022
+
+(5):Summation : 2000000   Time : 77814
+
+(6):Summation : 2000000   Time : 74247
+
+(7):Summation : 2000000   Time : 68736
+
+(8):Summation : 2000000   Time : 72225
+
+(9):Summation : 2000000   Time : 92478
+
+(10):Summation : 2000000   Time : 76467
+
+====== Results ======
+
+Average Time : 80629.0
+
+Index  (2000000) : 10
+
+***
+
+=========== Consumer Producer Part.===============
+
+ID : 0 | PUSHED : -1683655734
+
+ID : 1 | PUSHED : 648608129
+
+ID : 4 | PUSHED : -887513463
+
+ID : 0 |  POPPED : -887513463
+
+ID : 1 |  POPPED : 648608129
+
+ID : 2 |  POPPED : -1683655734
+
+ID : 3 | PUSHED : 1956036178
+
+ID : 4 | PUSHED : -2053223560
+
+ID : 2 | PUSHED : -1706458507
+
+ID : 3 |  POPPED : -1706458507
+
+ID : 4 |  POPPED : -2053223560
+
+ID : 0 |  POPPED : 1956036178
+
+ID : 3 | PUSHED : -1797832005
+
+ID : 0 | PUSHED : -1015624150
+
+ID : 1 | PUSHED : 1195708767
+
+ID : 1 |  POPPED : 1195708767
+
+ID : 2 |  POPPED : -1797832005
+
+ID : 3 |  POPPED : -1015624150
+
+ID : 2 | PUSHED : 2066041344
+
+ID : 4 | PUSHED : 987586720
+
+ID : 3 | PUSHED : 1831773930
+
+ID : 4 |  POPPED : 2066041344
+
+ID : 0 |  POPPED : 1831773930
+
+ID : 1 |  POPPED : 987586720
+
+ID : 1 | PUSHED : -1307955689
+
+ID : 2 | PUSHED : 951630201
+
+ID : 0 | PUSHED : 1053103843
+
+ID : 2 |  POPPED : 951630201
+
+ID : 3 |  POPPED : 1053103843
+
+ID : 4 |  POPPED : -1307955689
+
+ID : 4 | PUSHED : -1993421489
+
+ID : 3 | PUSHED : 2095587127
+
+ID : 1 | PUSHED : 1198034390
+
+ID : 0 |  POPPED : 2095587127
+
+ID : 1 |  POPPED : 1198034390
+
+ID : 2 |  POPPED : -1993421489
+
+ID : 2 | PUSHED : -82166328
+
+ID : 0 | PUSHED : -1406762477
+
+ID : 4 | PUSHED : 454826303
+
+ID : 3 |  POPPED : -1406762477
+
+ID : 4 |  POPPED : 454826303
+
+ID : 0 |  POPPED : -82166328
+
+ID : 1 | PUSHED : 1764426892
+
+ID : 0 | PUSHED : 30223831
+
+ID : 3 | PUSHED : 243703302
+
+ID : 1 |  POPPED : 30223831
+
+ID : 2 |  POPPED : 243703302
+
+ID : 2 | PUSHED : 2077738172
+
+ID : 3 |  POPPED : 2077738172
+
+ID : 3 |  POPPED : 1764426892
+
+ID : 1 | PUSHED : 1827517810
+
+ID : 2 | PUSHED : -1904577459
+
+ID : 4 | PUSHED : 133999565
+
+ID : 4 |  POPPED : -1904577459
+
+ID : 0 |  POPPED : 1827517810
+
+ID : 1 |  POPPED : 133999565
+
+ID : 0 | PUSHED : 1433233570
+
+ID : 1 | PUSHED : 470715020
+
+ID : 3 | PUSHED : -1208207284
+
+ID : 2 |  POPPED : 1433233570
+
+ID : 3 |  POPPED : -1208207284
+
+ID : 4 |  POPPED : 470715020
+
+ID : 0 | PUSHED : 1153843636
+
+ID : 2 | PUSHED : -1659884398
+
+ID : 4 | PUSHED : 70885846
+
+ID : 0 |  POPPED : 1153843636
+
+ID : 1 |  POPPED : 70885846
+
+ID : 2 |  POPPED : -1659884398
+
+ID : 2 | PUSHED : 1092547948
+
+ID : 1 | PUSHED : 1016504797
+
+ID : 3 | PUSHED : -492122399
+
+ID : 3 |  POPPED : -492122399
+
+ID : 4 |  POPPED : 1092547948
+
+ID : 0 |  POPPED : 1016504797
+
+ID : 0 | PUSHED : -879000250
+
+ID : 2 | PUSHED : -1963678546
+
+ID : 4 | PUSHED : -415334363
+
+ID : 1 |  POPPED : -1963678546
+
+ID : 2 |  POPPED : -415334363
+
+ID : 3 |  POPPED : -879000250
+
+ID : 1 | PUSHED : 1909979868
+
+ID : 3 | PUSHED : 1731862159
+
+ID : 4 | PUSHED : 1202868654
+
+ID : 4 |  POPPED : 1202868654
+
+ID : 0 |  POPPED : 1909979868
+
+ID : 1 |  POPPED : 1731862159
+
+ID : 0 | PUSHED : -689369857
+
+ID : 2 | PUSHED : -1938498031
+
+ID : 1 | PUSHED : 1480715109
+
+ID : 2 |  POPPED : 1480715109
+
+ID : 3 |  POPPED : -1938498031
+
+ID : 4 |  POPPED : -689369857
+
+ID : 4 | PUSHED : 413900815
+
+ID : 0 | PUSHED : -1336364999
+
+ID : 3 | PUSHED : -637776135
+
+ID : 0 |  POPPED : -637776135
+
+ID : 1 |  POPPED : -1336364999
+
+ID : 2 |  POPPED : 413900815
+
+ID : 3 | PUSHED : -1007876011
+
+ID : 4 |  POPPED : -1007876011

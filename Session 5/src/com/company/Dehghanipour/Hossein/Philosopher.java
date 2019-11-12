@@ -58,7 +58,6 @@ public class Philosopher extends Thread {
                 System.out.println("ID : " + id + " | Unsuccessful Attempt to eat.");
             }
             loop--;
-
         }
 
 

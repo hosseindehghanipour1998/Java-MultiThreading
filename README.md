@@ -37,3 +37,15 @@ Part II :
 
 1 - Now by using 2 semaphores - producerSemaphore and consumerSemaphore - and s Stack, write a program that has 5 threads of each class "Adder and Consumer " and seamphores with " permit = 3 " and you should also use "locker" to lock on the stack. Run the program for 10 times and each time the producer semaphores must push a random number into the stack and the consumer semaphores must pop a number from the stack. After pushing or popping, the program shall print the id and amount pushed/popped to/from the stack.
 
+
+# Session 5
+1 - We have another function called tryLock() in java. Code the " Dining Philosophers " problem and show all the possible incidents :
+    A - A philosopher is eating.
+    B - A philosopher is sleeping.
+    C - A philosopher wants to eat but can not eat.
+Rules :
+    A - If a philosopher can not eat or doen't want to eat should sleep.
+    B - There must be no starvation.
+    C - Unlimited Food is provided for all of the philosophers.
+    D - Each philosopher has his own plate.
+    E - The limit on their turn is the available fork or spoon.

@@ -1,0 +1,224 @@
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+ID : 3 | PUSHED : -1489489629
+
+ID : 4 | PUSHED : -387880522
+
+ID : 0 | PUSHED : 952467824
+
+ID : 3 |  POPPED : -1489489629
+
+ID : 4 |  POPPED : -387880522
+
+ID : 0 |  POPPED : 952467824
+
+ID : 1 | PUSHED : 1125331032
+
+ID : 2 | PUSHED : -388290306
+
+ID : 0 | PUSHED : -2110909518
+
+ID : 2 |  POPPED : -388290306
+
+ID : 1 |  POPPED : -2110909518
+
+ID : 3 |  POPPED : 1125331032
+
+ID : 3 | PUSHED : -1008892652
+
+ID : 4 | PUSHED : -1538590773
+
+ID : 0 | PUSHED : -1614223803
+
+ID : 4 |  POPPED : -1538590773
+
+ID : 0 |  POPPED : -1614223803
+
+ID : 2 |  POPPED : -1008892652
+
+ID : 2 | PUSHED : 828718305
+
+ID : 1 | PUSHED : 678455619
+
+ID : 4 | PUSHED : 306339263
+
+ID : 1 |  POPPED : 678455619
+
+ID : 3 |  POPPED : 306339263
+
+ID : 4 |  POPPED : 828718305
+
+ID : 4 | PUSHED : -1300725274
+
+ID : 0 | PUSHED : -407552370
+
+ID : 3 | PUSHED : -1576114845
+
+ID : 0 |  POPPED : -1576114845
+
+ID : 2 |  POPPED : -1300725274
+
+ID : 1 |  POPPED : -407552370
+
+ID : 1 | PUSHED : -1046432053
+
+ID : 4 | PUSHED : -1239355392
+
+ID : 2 | PUSHED : 415463653
+
+ID : 3 |  POPPED : -1239355392
+
+ID : 4 |  POPPED : 415463653
+
+ID : 0 |  POPPED : -1046432053
+
+ID : 3 | PUSHED : -1018963836
+
+ID : 0 | PUSHED : -1454871225
+
+ID : 2 | PUSHED : -1256008536
+
+ID : 2 |  POPPED : -1454871225
+
+ID : 1 |  POPPED : -1256008536
+
+ID : 3 |  POPPED : -1018963836
+
+ID : 1 | PUSHED : 1876889585
+
+ID : 2 | PUSHED : -1558947741
+
+ID : 4 | PUSHED : 1570803114
+
+ID : 4 |  POPPED : -1558947741
+
+ID : 0 |  POPPED : 1570803114
+
+ID : 2 |  POPPED : 1876889585
+
+ID : 3 | PUSHED : 626673036
+
+ID : 1 | PUSHED : 1634552500
+
+ID : 0 | PUSHED : 1206556805
+
+ID : 1 |  POPPED : 1206556805
+
+ID : 3 |  POPPED : 1634552500
+
+ID : 4 |  POPPED : 626673036
+
+ID : 3 | PUSHED : -1538957004
+
+ID : 2 | PUSHED : 2085027526
+
+ID : 4 | PUSHED : 1972182452
+
+ID : 0 |  POPPED : 2085027526
+
+ID : 2 |  POPPED : 1972182452
+
+ID : 1 |  POPPED : -1538957004
+
+ID : 1 | PUSHED : 1348267223
+
+ID : 0 | PUSHED : -2011635840
+
+ID : 3 | PUSHED : 852202957
+
+ID : 3 |  POPPED : -2011635840
+
+ID : 4 |  POPPED : 852202957
+
+ID : 0 |  POPPED : 1348267223
+
+ID : 1 | PUSHED : 1099670482
+
+ID : 2 | PUSHED : 473555805
+
+ID : 4 | PUSHED : 706698119
+
+ID : 2 |  POPPED : 473555805
+
+ID : 1 |  POPPED : 1099670482
+
+ID : 3 |  POPPED : 706698119
+
+ID : 1 | PUSHED : -2120778205
+
+ID : 0 | PUSHED : 1070058678
+
+ID : 3 | PUSHED : -590536566
+
+ID : 4 |  POPPED : -2120778205
+
+ID : 0 |  POPPED : -590536566
+
+ID : 2 |  POPPED : 1070058678
+
+ID : 4 | PUSHED : -1263631245
+
+ID : 2 | PUSHED : 791051499
+
+ID : 0 | PUSHED : 2139210512
+
+ID : 1 |  POPPED : 791051499
+
+ID : 3 |  POPPED : 2139210512
+
+ID : 4 |  POPPED : -1263631245
+
+ID : 3 | PUSHED : 1190270589
+
+ID : 1 | PUSHED : -1557565541
+
+ID : 0 | PUSHED : 14503983
+
+ID : 0 |  POPPED : -1557565541
+
+ID : 2 |  POPPED : 14503983
+
+ID : 1 |  POPPED : 1190270589
+
+ID : 2 | PUSHED : -364591079
+
+ID : 4 | PUSHED : 2134389895
+
+ID : 1 | PUSHED : 1867907984
+
+ID : 3 |  POPPED : 2134389895
+
+ID : 4 |  POPPED : 1867907984
+
+ID : 0 |  POPPED : -364591079
+
+ID : 3 | PUSHED : -2127408540
+
+ID : 2 | PUSHED : -1007252160
+
+ID : 2 |  POPPED : -1007252160
+
+ID : 1 |  POPPED : -2127408540
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============
+
+=========== Consumer Producer Part.===============

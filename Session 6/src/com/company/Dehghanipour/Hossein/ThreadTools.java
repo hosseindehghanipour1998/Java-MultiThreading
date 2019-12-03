@@ -24,8 +24,11 @@ public class ThreadTools  {
         try {
             // Here I assumed the number of producers and consumers are equal.
             for ( int i = 0 ; i < Main.producerNumbers ; i++ ){
-                Consumer.threadPool.get(i).join();
                 Producer.threadPool.get(i).join();
+                //Consumer.threadPool.get(i).join();
+            }
+            for(int i = 0 ; i < Main.producerNumbers ; i++ ){
+                Consumer.threadPool.get(i).join();
             }
         } catch (InterruptedException e) {
             e.printStackTrace();

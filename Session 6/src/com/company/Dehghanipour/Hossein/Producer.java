@@ -26,7 +26,7 @@ public class Producer extends Thread {
         try {
             for(int i = 0 ; i < Main.consumer_producerLoopCounter ; i++){
                 int food = (int)(ThreadLocalRandom.current().nextInt()) ;
-                Main.producerSemaphore.acquire("ProducerSemaphore");
+                Main.producerSemaphore.acquire("ProducerSemaphore" , this.id);
                 Main.locker.lock();
                 Main.bowls.push(food);
                 Main.locker.unlock();
@@ -36,7 +36,6 @@ public class Producer extends Thread {
             }
         }catch (Exception e){
             e.printStackTrace();
-
         }
 
     }

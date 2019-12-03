@@ -54,3 +54,15 @@ Rules :
     
 # Session 6
  Implement Semaphore Class by Using Locks ( Reentrant Lock )
+ 
+ # Session 7 
+ BarberShop Problem :
+We have a barber named "Bob" who works in his barbershop. This barbershop has 4 chairs which means we can have the capacity of 4 new clients(customers).Barber Bob can have only 1 client's hair done at once, Which means he can have 4 customers sitting at the reserved chairs and 1 customer sitting at the barber chair to have his hair done.When there are no clients available, the barber would go and rest untill a new customer arrives and awakens the barber.Implement this problem and notice that :
+
+1 - Barber , Barbershop , Client are 3 distinct classes.
+
+2 - Barber and Client have semaphores.
+
+3 - The code must be fair for all customer which means older customers get to be serviced sooner than new comers.( You shall keep a Queue of clients in the Barbershop class )
+
+4 - At each stage , print what is exactly happening.

@@ -27,7 +27,6 @@ public class Consumer extends Thread {
             for ( int i = 0 ; i < Main.consumer_producerLoopCounter ; i++){
                 Main.consumerSemaphore.acquire("ConsumerSemaphore" , this.id);
                 Main.locker.lock();
-                System.out.println(Main.bowls.size());
                 int food = (int) Main.bowls.pop();
                 System.out.println("ID : " + this.id + " |  POPPED : " + food) ;
                 IODevice.writePerLine(Main.FILE_NAME , "ID : " + this.id + " |  POPPED : " + food);

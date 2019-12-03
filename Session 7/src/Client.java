@@ -24,13 +24,10 @@ public class Client extends Thread {
     @Override
     public void run() {
         super.run();
-        //System.out.println("Client No : " + id + "Comes in !");
         locker.lock();
         if ( BarberShop.clientsQueue.size() < BarberShop.chairNumbers ){
             Barber.working.release();
             System.out.println("Client No : " + id + " calls the barber");
-
-
             BarberShop.clientsQueue.add(this);
             System.out.println("Client No : " + id + " Sits. size("+BarberShop.clientsQueue.size()+")");
             locker.unlock();

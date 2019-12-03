@@ -25,13 +25,13 @@ public class Consumer extends Thread {
         super.run();
         try {
             for ( int i = 0 ; i < Main.consumer_producerLoopCounter ; i++){
-                Main.consumerSemaphore.acquire("ConsumerSemaphore" , this.id);
+                Main.consumerSemaphore.acquire();
                 Main.locker.lock();
                 int food = (int) Main.bowls.pop();
                 System.out.println("ID : " + this.id + " |  POPPED : " + food) ;
                 IODevice.writePerLine(Main.FILE_NAME , "ID : " + this.id + " |  POPPED : " + food);
                 Main.locker.unlock();
-                Main.producerSemaphore.release("producerSemaphore");
+                Main.producerSemaphore.release();
             }
         }catch (Exception e){
             e.printStackTrace();

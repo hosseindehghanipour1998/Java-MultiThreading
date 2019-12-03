@@ -26,13 +26,13 @@ public class Producer extends Thread {
         try {
             for(int i = 0 ; i < Main.consumer_producerLoopCounter ; i++){
                 int food = (int)(ThreadLocalRandom.current().nextInt()) ;
-                Main.producerSemaphore.acquire("ProducerSemaphore" , this.id);
+                Main.producerSemaphore.acquire();
                 Main.locker.lock();
                 Main.bowls.push(food);
                 Main.locker.unlock();
                 System.out.println("ID : " + this.id + " | PUSHED : " + food) ;
                 IODevice.writePerLine(Main.FILE_NAME , "ID : " + this.id + " | PUSHED : " + food);
-                Main.consumerSemaphore.release("producerSemaphore");
+                Main.consumerSemaphore.release();
             }
         }catch (Exception e){
             e.printStackTrace();

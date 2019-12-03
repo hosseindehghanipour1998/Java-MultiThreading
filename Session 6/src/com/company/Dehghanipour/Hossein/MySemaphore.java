@@ -15,7 +15,7 @@ public class MySemaphore {
     public int limitNo = 0 ;
 
 
-    public void acquire(String semaphoreName , int id){
+    public void acquire(){
         try {
             locker.acquire();
             limitNoLocker.lock();
@@ -29,7 +29,7 @@ public class MySemaphore {
         }
     }
 
-    public void release(String semaphoreName){
+    public void release(){
         limitNoLocker.lock();
         limitNo ++ ;
         if ( limitNo  <= 1){

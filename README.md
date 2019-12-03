@@ -50,3 +50,7 @@ Rules :
     D - Each philosopher has his own plate.
     E - The limit on their turn is the available fork or spoon.
     F - The Code should run for unlimited time but I assigned a Loop = 5 in the thread run to see the results for limited time.
+    
+    
+# Session 6
+ Implement Semaphore Class by Using Locks ( Reentrant Lock )

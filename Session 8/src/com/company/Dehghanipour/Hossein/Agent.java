@@ -1,14 +1,11 @@
 package com.company.Dehghanipour.Hossein;
 
-import javafx.scene.control.Tab;
-
 import java.util.Random;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+
 
 public class Agent extends Thread {
     private Random rnd = new Random() ;
-    public void agentSmoke(){
+    public void agentFill(){
         if ( Table.tableIsFull == false){
             for ( int i = 0 ; i < Table.resourcesOnTable.length ; i++){
                 Table.resourcesOnTable[i] = false ;
@@ -23,23 +20,17 @@ public class Agent extends Thread {
             Table.resourcesOnTable[secondIndex] = true ;
             Table.resourcesOnTable[firstIndex] = true ;
             Table.tableIsFull = true;
-
-
-            //System.out.println("Table is Full");
         }
         else {
-            //System.out.println("Full table | Agent bekap");
         }
     }
 
     @Override
     public void run() {
         super.run();
-        System.out.println("Agent hastam");
+        System.out.println("Agent is On.");
         while (true){
-
-            agentSmoke();
-
+            agentFill();
         }
 
     }

@@ -5,11 +5,8 @@ import javafx.scene.control.Tab;
 import java.util.ArrayList;
 
 public class Smoker extends Thread{
-    // Id 0 : Tobbaco
-    // Id 1 : Roll
-    // Id 2 : Tof
+
     int id = 0 ;
-    Type type = Type.SMOKER ;
     public static ArrayList<Smoker> smokers = new ArrayList<>();
     private static int idCounter = 0 ;
 
@@ -33,7 +30,7 @@ public class Smoker extends Thread{
     public synchronized void smokerSmoke() {
         if (Table.tableIsFull == true) {
             if (canEat() == true) {
-                System.out.println("Smoker Number : " + id + " is Eating");
+                System.out.println("Smoker Number : " + id + " is Making the Cigar");
                 Table.tableIsFull = false;
             }
             try {
@@ -46,7 +43,7 @@ public class Smoker extends Thread{
 
     @Override
     public void run() {
-        System.out.println("Smoker No : " + this.id + " Hastam");
+        System.out.println("Smoker No : " + this.id + " Is On");
        while (true){
             smokerSmoke();
         }

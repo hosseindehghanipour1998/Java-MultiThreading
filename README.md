@@ -1,9 +1,9 @@
-# OS-Lab-2019
+# Java MultiThreading
 
 Dear Viewer ,
 Hi.
 
-Here I add all the files and codes that I am asked by the TA in OS Lab Course.
+Here I add all the files and codes that I am asked by the TA in ___OS Lab Course in 2019___.
 
 This course is taught by [Mr.Mohammad Mostafaee](https://github.com/mmd-mostafaee) @Shiraz University 
 
